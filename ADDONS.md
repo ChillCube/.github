@@ -25,3 +25,4 @@ but if that is not an option for you, you could download them manually. Just mak
 * [Godot_SmoothMovement](https://github.com/ChillCube/Godot_SmoothMovement) - An addon that can be used to let objects move smoothly, for a nicer feel.
 
 ## ⚙️ Settings
+* [Godot_ButtonRemapper](https://github.com/ChillCube/Godot_ButtonRemapper) - This addon is used for remapping buttons. It can be used for allowing the player to edit the input settings
