@@ -10,3 +10,6 @@
 
 ## Character-Controllers
 * [Godot_PlatformerCharacterController](https://github.com/ChillCube/Godot_PlatformerCharacterController) - A simple character controller for platformer games in Godot
+
+## Polish-and-Juice
+* [Godot_SmoothMovement](https://github.com/ChillCube/Godot_SmoothMovement) - Godot Addon
