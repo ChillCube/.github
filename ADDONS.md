@@ -23,3 +23,5 @@ but if that is not an option for you, you could download them manually. Just mak
 * [Godot_FlickeringLights3D](https://github.com/ChillCube/Godot_FlickeringLights3D) - A simple extension to omnilight3D that adds flickering. Useful for lights emitted by flames
 * [Godot HitflashAnimation](https://github.com/ChillCube/Godot_HitflashAnimation) - A godot addon that can be used to apply hitlfash animations to nodes
 * [Godot_SmoothMovement](https://github.com/ChillCube/Godot_SmoothMovement) - An addon that can be used to let objects move smoothly, for a nicer feel.
+
+## ⚙️ Settings
