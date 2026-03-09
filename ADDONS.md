@@ -4,3 +4,6 @@
 
 ## Mouse-Functionality
 * [Godot_2D_Mouse_Dragging](https://github.com/ChillCube/Godot_2D_Mouse_Dragging) - Godot Addon
+
+## RPG-Systems
+* [Godot_LevelUp-Stats-and-EXP-system](https://github.com/ChillCube/Godot_LevelUp-Stats-and-EXP-system) - A system for level ups, stats and exp for godot
