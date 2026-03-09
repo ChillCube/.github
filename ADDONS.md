@@ -9,7 +9,7 @@ but if that is not an option for you, you could download them manually. Just mak
 * [2D_Node_Arranger](https://github.com/ChillCube/2d_node_arranger) - A node that you can use to arrange node in certain patterns. Useful for UI elements, cards for a card game, etc
 
 ## 🖱️ Mouse-Functionality
-* [Godot_2D_Mouse_Dragging](https://github.com/ChillCube/Godot_2D_Mouse_Dragging) - Godot Addon
+* [Godot_2D_Mouse_Dragging](https://github.com/ChillCube/Godot_2D_Mouse_Dragging) - An addon that can be used to allow the player to drag objects from one place to another
 
 ## ⚔️ RPG-Systems
 * [Godot_LevelUp-Stats-and-EXP-system](https://github.com/ChillCube/Godot_LevelUp-Stats-and-EXP-system) - A system for level ups, stats and exp for godot
@@ -18,4 +18,4 @@ but if that is not an option for you, you could download them manually. Just mak
 * [Godot_PlatformerCharacterController](https://github.com/ChillCube/Godot_PlatformerCharacterController) - A simple character controller for platformer games in Godot
 
 ## ✨ Polish-and-Juice
-* [Godot_SmoothMovement](https://github.com/ChillCube/Godot_SmoothMovement) - Godot Addon
+* [Godot_SmoothMovement](https://github.com/ChillCube/Godot_SmoothMovement) - An addon that can be used to let objects move smoothly, for a nicer feel.
