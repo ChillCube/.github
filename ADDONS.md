@@ -15,6 +15,7 @@ but if that is not an option for you, you could download them manually. Just mak
 * [Godot_LevelUp-Stats-and-EXP-system](https://github.com/ChillCube/Godot_LevelUp-Stats-and-EXP-system) - A system for level ups, stats and exp for godot
 
 ## 🕹️ Character-Controllers
+* [Godot_VehicleController2D](https://github.com/ChillCube/Godot_VehicleController2D) - A character controller for vehicles in 2D (top down)
 * [Godot TopDown Character Controller](https://github.com/ChillCube/Godot_TopDown_Character_Controller) - A character controller for top down movement, such as for an RPG game
 * [Godot_PlatformerCharacterController](https://github.com/ChillCube/Godot_PlatformerCharacterController) - A simple character controller for platformer games in Godot
 
