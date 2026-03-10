@@ -10,6 +10,7 @@ but if that is not an option for you, you could download them manually. Just mak
 * [2D_Node_Arranger](https://github.com/ChillCube/2d_node_arranger) - A node that you can use to arrange node in certain patterns. Useful for UI elements, cards for a card game, etc
 
 ## 🖱️ Mouse-Functionality
+* [3D_Mouse_Dragging](https://github.com/ChillCube/3D_Mouse_Dragging) - An addon that can be used to setup dragging items in 3D
 * [Godot_2D_Mouse_Dragging](https://github.com/ChillCube/Godot_2D_Mouse_Dragging) - An addon that can be used to allow the player to drag objects from one place to another
 
 ## ⚔️ RPG-Systems
