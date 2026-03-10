@@ -28,3 +28,6 @@ but if that is not an option for you, you could download them manually. Just mak
 
 ## ⚙️ Settings
 * [Godot_ButtonRemapper](https://github.com/ChillCube/Godot_ButtonRemapper) - This addon is used for remapping buttons. It can be used for allowing the player to edit the input settings
+
+## Others
+* [BurneableObject](https://github.com/ChillCube/BurneableObject) - An addon used for burneable objects. This is used for a campfire sim project we are working on
