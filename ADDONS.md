@@ -31,10 +31,10 @@ but if that is not an option for you, you could download them manually. Just mak
 * [Godot_ButtonRemapper](https://github.com/ChillCube/Godot_ButtonRemapper) - This addon is used for remapping buttons. It can be used for allowing the player to edit the input settings
 
 ## Others
-* [Godot_Grid](https://github.com/ChillCube/Godot_Grid) - An addon that manages grid placement. Useful for card games, strategy games, among others
 * [Deck of Nodes](https://github.com/ChillCube/Deck_of_Nodes) - An addon for managing a list of nodes. Useful for card games
 * [BurneableObject](https://github.com/ChillCube/BurneableObject) - An addon used for burneable objects. This is used for a campfire sim project we are working on
 
-## Card Game Elements
+## 🎴 Card Game Elements
+* [Godot_Grid](https://github.com/ChillCube/Godot_Grid) - An addon that manages grid placement. Useful for card games, strategy games, among others
 * [Card Hand](https://github.com/ChillCube/Card_Hand) - a godot addon that lets you create a deck of cards. Used for Card2D node
 * [2dCard](https://github.com/ChillCube/2dCard) - A node that can be used to create 2D cards for card games
