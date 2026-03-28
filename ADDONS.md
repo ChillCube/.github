@@ -37,5 +37,4 @@ but if that is not an option for you, you could download them manually. Just mak
 
 ## Card Game Elements
 * [Card Hand](https://github.com/ChillCube/Card_Hand) - a godot addon that lets you create a deck of cards. Used for Card2D node
-* [Card Deck](https://github.com/ChillCube/Card_Deck) - a godot addon that lets you create a deck of cards. Used for Card2D node
 * [2dCard](https://github.com/ChillCube/2dCard) - A node that can be used to create 2D cards for card games
