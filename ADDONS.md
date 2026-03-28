@@ -35,6 +35,7 @@ but if that is not an option for you, you could download them manually. Just mak
 * [BurneableObject](https://github.com/ChillCube/BurneableObject) - An addon used for burneable objects. This is used for a campfire sim project we are working on
 
 ## 🎴 Card Game Elements
+* [PlacementArea2D](https://github.com/ChillCube/PlacementArea2D) - a node that lets you define areas to place objects (like cards) onto the screen
 * [Godot_Grid](https://github.com/ChillCube/Godot_Grid) - An addon that manages grid placement. Useful for card games, strategy games, among others
 * [Card Hand](https://github.com/ChillCube/Card_Hand) - a godot addon that lets you create a deck of cards. Used for Card2D node
 * [2dCard](https://github.com/ChillCube/2dCard) - A node that can be used to create 2D cards for card games
