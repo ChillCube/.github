@@ -32,6 +32,7 @@ but if that is not an option for you, you could download them manually. Just mak
 * [Godot_ButtonRemapper](https://github.com/ChillCube/Godot_ButtonRemapper) - This addon is used for remapping buttons. It can be used for allowing the player to edit the input settings
 
 ## Others
+* [SpriteHelper](https://github.com/ChillCube/SpriteHelper) - A bunch of helper function for managing sprite2D's in godot
 * [LabelHelper](https://github.com/ChillCube/LabelHelper) - Functions that are useful for dealing with text and labels
 * [Deck of Nodes](https://github.com/ChillCube/Deck_of_Nodes) - An addon for managing a list of nodes. Useful for card games
 * [BurneableObject](https://github.com/ChillCube/BurneableObject) - An addon used for burneable objects. This is used for a campfire sim project we are working on
