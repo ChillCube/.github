@@ -44,4 +44,5 @@ but if that is not an option for you, you could download them manually. Just mak
 * [2dCard](https://github.com/ChillCube/2dCard) - A node that can be used to create 2D cards for card games
 
 ## Networking
+* [SteamChat](https://github.com/ChillCube/SteamChat) - a node that can be used for typing and opening a steam chat window
 * [ChillSteamPlugin](https://github.com/ChillCube/ChillSteamPlugin) - A custom version of the GodotSteam plugin, made to be comptaible with ChillCube's developer tools and made with specific features for ChillCube
