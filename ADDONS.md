@@ -18,6 +18,7 @@ but if that is not an option for you, you can download them manually. Just make 
 * [Godot_PlatformerCharacterController](https://github.com/ChillCube/Godot_PlatformerCharacterController) - A simple character controller for platformer games in Godot
 
 ## 🧠 AI & Pathfinding
+* [HuntingBehaviour](https://github.com/ChillCube/HuntingBehaviour) - an addon to create hunting behaviour on a node
 
 ## 🌐 Networking
 * [SteamLobbyList](https://github.com/ChillCube/SteamLobbyList) - A node to display a list of lobbies with buttons to select them
