@@ -5,6 +5,7 @@ It is recommended to use ChillCube's internal developer tools to download and us
 but if that is not an option for you, you could download them manually. Just make sure you download any dependencies needed as well!
 
 ## 🖥️ UI-and-Menus
+* [Godot_SpriteBasedSmoothMenuButton2D](git@github.com:ChillCube/Godot_SpriteBasedSmoothMenuButton2D) - A different way of handling menu buttons, rather than using control nodes. This can be useful for animations among others
 * [ChillSteamPlugin](git@github.com:ChillCube/ChillSteamPlugin) - A custom version of the GodotSteam plugin, made to be comptaible with ChillCube's developer tools and made with specific features for ChillCube
 * [2D_Node_Arranger](git@github.com:ChillCube/2d_node_arranger) - A node that you can use to arrange node in certain patterns. Useful for UI elements, cards for a card game, etc
 * [heart_popup](https://github.com/ChillCube/heart_popup) - a node that can be attached and used to display how much health something has, can work with other stats too
@@ -13,17 +14,20 @@ but if that is not an option for you, you could download them manually. Just mak
 * [2D_Node_Arranger](https://github.com/ChillCube/2d_node_arranger) - A node that you can use to arrange node in certain patterns. Useful for UI elements, cards for a card game, etc
 
 ## 🖱️ Mouse-Functionality
+* [Godot_SpriteBasedSmoothMenuButton2D](git@github.com:ChillCube/Godot_SpriteBasedSmoothMenuButton2D) - A different way of handling menu buttons, rather than using control nodes. This can be useful for animations among others
 * [ChillSteamPlugin](git@github.com:ChillCube/ChillSteamPlugin) - A custom version of the GodotSteam plugin, made to be comptaible with ChillCube's developer tools and made with specific features for ChillCube
 * [2D_Node_Arranger](git@github.com:ChillCube/2d_node_arranger) - A node that you can use to arrange node in certain patterns. Useful for UI elements, cards for a card game, etc
 * [3D_Mouse_Dragging](https://github.com/ChillCube/3D_Mouse_Dragging) - An addon that can be used to setup dragging items in 3D
 * [Godot_2D_Mouse_Dragging](https://github.com/ChillCube/Godot_2D_Mouse_Dragging) - An addon that can be used to allow the player to drag objects from one place to another
 
 ## ⚔️ RPG-Systems
+* [Godot_SpriteBasedSmoothMenuButton2D](git@github.com:ChillCube/Godot_SpriteBasedSmoothMenuButton2D) - A different way of handling menu buttons, rather than using control nodes. This can be useful for animations among others
 * [ChillSteamPlugin](git@github.com:ChillCube/ChillSteamPlugin) - A custom version of the GodotSteam plugin, made to be comptaible with ChillCube's developer tools and made with specific features for ChillCube
 * [2D_Node_Arranger](git@github.com:ChillCube/2d_node_arranger) - A node that you can use to arrange node in certain patterns. Useful for UI elements, cards for a card game, etc
 * [Godot_LevelUp-Stats-and-EXP-system](https://github.com/ChillCube/Godot_LevelUp-Stats-and-EXP-system) - A system for level ups, stats and exp for godot
 
 ## 🕹️ Character-Controllers
+* [Godot_SpriteBasedSmoothMenuButton2D](git@github.com:ChillCube/Godot_SpriteBasedSmoothMenuButton2D) - A different way of handling menu buttons, rather than using control nodes. This can be useful for animations among others
 * [ChillSteamPlugin](git@github.com:ChillCube/ChillSteamPlugin) - A custom version of the GodotSteam plugin, made to be comptaible with ChillCube's developer tools and made with specific features for ChillCube
 * [2D_Node_Arranger](git@github.com:ChillCube/2d_node_arranger) - A node that you can use to arrange node in certain patterns. Useful for UI elements, cards for a card game, etc
 * [Godot_VehicleController2D](https://github.com/ChillCube/Godot_VehicleController2D) - A character controller for vehicles in 2D (top down)
@@ -31,6 +35,7 @@ but if that is not an option for you, you could download them manually. Just mak
 * [Godot_PlatformerCharacterController](https://github.com/ChillCube/Godot_PlatformerCharacterController) - A simple character controller for platformer games in Godot
 
 ## ✨ Polish-and-Juice
+* [Godot_SpriteBasedSmoothMenuButton2D](git@github.com:ChillCube/Godot_SpriteBasedSmoothMenuButton2D) - A different way of handling menu buttons, rather than using control nodes. This can be useful for animations among others
 * [ChillSteamPlugin](git@github.com:ChillCube/ChillSteamPlugin) - A custom version of the GodotSteam plugin, made to be comptaible with ChillCube's developer tools and made with specific features for ChillCube
 * [2D_Node_Arranger](git@github.com:ChillCube/2d_node_arranger) - A node that you can use to arrange node in certain patterns. Useful for UI elements, cards for a card game, etc
 * [SpriteAnimations3D](https://github.com/ChillCube/SpriteAnimations3D) - A set of animations that can be used on 3D sprites
@@ -39,11 +44,13 @@ but if that is not an option for you, you could download them manually. Just mak
 * [Godot_SmoothMovement](https://github.com/ChillCube/Godot_SmoothMovement) - An addon that can be used to let objects move smoothly, for a nicer feel.
 
 ## ⚙️ Settings
+* [Godot_SpriteBasedSmoothMenuButton2D](git@github.com:ChillCube/Godot_SpriteBasedSmoothMenuButton2D) - A different way of handling menu buttons, rather than using control nodes. This can be useful for animations among others
 * [ChillSteamPlugin](git@github.com:ChillCube/ChillSteamPlugin) - A custom version of the GodotSteam plugin, made to be comptaible with ChillCube's developer tools and made with specific features for ChillCube
 * [2D_Node_Arranger](git@github.com:ChillCube/2d_node_arranger) - A node that you can use to arrange node in certain patterns. Useful for UI elements, cards for a card game, etc
 * [Godot_ButtonRemapper](https://github.com/ChillCube/Godot_ButtonRemapper) - This addon is used for remapping buttons. It can be used for allowing the player to edit the input settings
 
 ## Others
+* [Godot_SpriteBasedSmoothMenuButton2D](git@github.com:ChillCube/Godot_SpriteBasedSmoothMenuButton2D) - A different way of handling menu buttons, rather than using control nodes. This can be useful for animations among others
 * [ChillSteamPlugin](git@github.com:ChillCube/ChillSteamPlugin) - A custom version of the GodotSteam plugin, made to be comptaible with ChillCube's developer tools and made with specific features for ChillCube
 * [2D_Node_Arranger](git@github.com:ChillCube/2d_node_arranger) - A node that you can use to arrange node in certain patterns. Useful for UI elements, cards for a card game, etc
 * [State](https://github.com/ChillCube/State) - A godot addon that adds a state node, which can be used as a base for creating state nodes
@@ -53,6 +60,7 @@ but if that is not an option for you, you could download them manually. Just mak
 * [BurneableObject](https://github.com/ChillCube/BurneableObject) - An addon used for burneable objects. This is used for a campfire sim project we are working on
 
 ## 🎴 Card Game Elements
+* [Godot_SpriteBasedSmoothMenuButton2D](git@github.com:ChillCube/Godot_SpriteBasedSmoothMenuButton2D) - A different way of handling menu buttons, rather than using control nodes. This can be useful for animations among others
 * [ChillSteamPlugin](git@github.com:ChillCube/ChillSteamPlugin) - A custom version of the GodotSteam plugin, made to be comptaible with ChillCube's developer tools and made with specific features for ChillCube
 * [2D_Node_Arranger](git@github.com:ChillCube/2d_node_arranger) - A node that you can use to arrange node in certain patterns. Useful for UI elements, cards for a card game, etc
 * [PlacementArea2D](https://github.com/ChillCube/PlacementArea2D) - a node that lets you define areas to place objects (like cards) onto the screen
@@ -61,6 +69,7 @@ but if that is not an option for you, you could download them manually. Just mak
 * [2dCard](https://github.com/ChillCube/2dCard) - A node that can be used to create 2D cards for card games
 
 ## Networking
+* [Godot_SpriteBasedSmoothMenuButton2D](git@github.com:ChillCube/Godot_SpriteBasedSmoothMenuButton2D) - A different way of handling menu buttons, rather than using control nodes. This can be useful for animations among others
 * [ChillSteamPlugin](git@github.com:ChillCube/ChillSteamPlugin) - A custom version of the GodotSteam plugin, made to be comptaible with ChillCube's developer tools and made with specific features for ChillCube
 * [2D_Node_Arranger](git@github.com:ChillCube/2d_node_arranger) - A node that you can use to arrange node in certain patterns. Useful for UI elements, cards for a card game, etc
 * [SteamLobbyList](https://github.com/ChillCube/SteamLobbyList) - A node to display a list of lobbies with buttons to select them
