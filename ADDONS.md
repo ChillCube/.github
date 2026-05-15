@@ -49,6 +49,7 @@ but if that is not an option for you, you can download them manually. Just make 
 ## 🤝 Multiplayer (Local & Online)
 
 ## 🎴 Card Game Systems
+* [Card Hand](https://github.com/ChillCube/Card_Hand) - a godot addon that lets you create a deck of cards. Used for Card2D node
 * [2dCard](https://github.com/ChillCube/2dCard) - A node that can be used to create 2D cards for card games
 
 ## 💰 Economy & Shops
