@@ -26,6 +26,7 @@ but if that is not an option for you, you can download them manually. Just make 
 ## ⚔️ Combat & Abilities
 
 ## 📦 Inventory & Items
+* [BurneableObject](https://github.com/ChillCube/BurneableObject) - An addon used for burneable objects. This is used for a campfire sim project we are working on
 
 ## 🗺️ World & Level Management
 
