@@ -14,11 +14,8 @@ but if that is not an option for you, you can download them manually. Just make 
 ## 🧠 AI & Pathfinding
 
 ## 🌐 Networking
-* [ChillSteamPlugin](git@github.com:ChillCube/ChillSteamPlugin) - A custom version of the GodotSteam plugin, made to be comptaible with ChillCube's developer tools and made with specific features for ChillCube
 
 ## 🖥️ UI & Menus
-* [Godot_SpriteBasedSmoothMenuButton2D](git@github.com:ChillCube/Godot_SpriteBasedSmoothMenuButton2D) - A different way of handling menu buttons, rather than using control nodes. This can be useful for animations among others
-* [2D_Node_Arranger](git@github.com:ChillCube/2d_node_arranger) - A node that you can use to arrange node in certain patterns. Useful for UI elements, cards for a card game, etc
 
 ## ⚔️ Combat & Abilities
 
