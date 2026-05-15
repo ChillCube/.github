@@ -5,6 +5,7 @@ It is recommended to use ChillCube's internal developer tools to download and us
 but if that is not an option for you, you could download them manually. Just make sure you download any dependencies needed as well!
 
 ## 🖥️ UI-and-Menus
+* [SteamLobbyList](git@github.com:ChillCube/SteamLobbyList) - A node to display a list of lobbies with buttons to select them
 * [Godot_TopDown_Character_Controller](git@github.com:ChillCube/Godot_TopDown_Character_Controller) - A character controller for top down movement, such as for an RPG game
 * [Godot_SpriteBasedSmoothMenuButton2D](git@github.com:ChillCube/Godot_SpriteBasedSmoothMenuButton2D) - A different way of handling menu buttons, rather than using control nodes. This can be useful for animations among others
 * [ChillSteamPlugin](git@github.com:ChillCube/ChillSteamPlugin) - A custom version of the GodotSteam plugin, made to be comptaible with ChillCube's developer tools and made with specific features for ChillCube
@@ -15,6 +16,7 @@ but if that is not an option for you, you could download them manually. Just mak
 * [2D_Node_Arranger](https://github.com/ChillCube/2d_node_arranger) - A node that you can use to arrange node in certain patterns. Useful for UI elements, cards for a card game, etc
 
 ## 🖱️ Mouse-Functionality
+* [SteamLobbyList](git@github.com:ChillCube/SteamLobbyList) - A node to display a list of lobbies with buttons to select them
 * [Godot_TopDown_Character_Controller](git@github.com:ChillCube/Godot_TopDown_Character_Controller) - A character controller for top down movement, such as for an RPG game
 * [Godot_SpriteBasedSmoothMenuButton2D](git@github.com:ChillCube/Godot_SpriteBasedSmoothMenuButton2D) - A different way of handling menu buttons, rather than using control nodes. This can be useful for animations among others
 * [ChillSteamPlugin](git@github.com:ChillCube/ChillSteamPlugin) - A custom version of the GodotSteam plugin, made to be comptaible with ChillCube's developer tools and made with specific features for ChillCube
@@ -23,6 +25,7 @@ but if that is not an option for you, you could download them manually. Just mak
 * [Godot_2D_Mouse_Dragging](https://github.com/ChillCube/Godot_2D_Mouse_Dragging) - An addon that can be used to allow the player to drag objects from one place to another
 
 ## ⚔️ RPG-Systems
+* [SteamLobbyList](git@github.com:ChillCube/SteamLobbyList) - A node to display a list of lobbies with buttons to select them
 * [Godot_TopDown_Character_Controller](git@github.com:ChillCube/Godot_TopDown_Character_Controller) - A character controller for top down movement, such as for an RPG game
 * [Godot_SpriteBasedSmoothMenuButton2D](git@github.com:ChillCube/Godot_SpriteBasedSmoothMenuButton2D) - A different way of handling menu buttons, rather than using control nodes. This can be useful for animations among others
 * [ChillSteamPlugin](git@github.com:ChillCube/ChillSteamPlugin) - A custom version of the GodotSteam plugin, made to be comptaible with ChillCube's developer tools and made with specific features for ChillCube
@@ -30,6 +33,7 @@ but if that is not an option for you, you could download them manually. Just mak
 * [Godot_LevelUp-Stats-and-EXP-system](https://github.com/ChillCube/Godot_LevelUp-Stats-and-EXP-system) - A system for level ups, stats and exp for godot
 
 ## 🕹️ Character-Controllers
+* [SteamLobbyList](git@github.com:ChillCube/SteamLobbyList) - A node to display a list of lobbies with buttons to select them
 * [Godot_TopDown_Character_Controller](git@github.com:ChillCube/Godot_TopDown_Character_Controller) - A character controller for top down movement, such as for an RPG game
 * [Godot_SpriteBasedSmoothMenuButton2D](git@github.com:ChillCube/Godot_SpriteBasedSmoothMenuButton2D) - A different way of handling menu buttons, rather than using control nodes. This can be useful for animations among others
 * [ChillSteamPlugin](git@github.com:ChillCube/ChillSteamPlugin) - A custom version of the GodotSteam plugin, made to be comptaible with ChillCube's developer tools and made with specific features for ChillCube
@@ -39,6 +43,7 @@ but if that is not an option for you, you could download them manually. Just mak
 * [Godot_PlatformerCharacterController](https://github.com/ChillCube/Godot_PlatformerCharacterController) - A simple character controller for platformer games in Godot
 
 ## ✨ Polish-and-Juice
+* [SteamLobbyList](git@github.com:ChillCube/SteamLobbyList) - A node to display a list of lobbies with buttons to select them
 * [Godot_TopDown_Character_Controller](git@github.com:ChillCube/Godot_TopDown_Character_Controller) - A character controller for top down movement, such as for an RPG game
 * [Godot_SpriteBasedSmoothMenuButton2D](git@github.com:ChillCube/Godot_SpriteBasedSmoothMenuButton2D) - A different way of handling menu buttons, rather than using control nodes. This can be useful for animations among others
 * [ChillSteamPlugin](git@github.com:ChillCube/ChillSteamPlugin) - A custom version of the GodotSteam plugin, made to be comptaible with ChillCube's developer tools and made with specific features for ChillCube
@@ -49,6 +54,7 @@ but if that is not an option for you, you could download them manually. Just mak
 * [Godot_SmoothMovement](https://github.com/ChillCube/Godot_SmoothMovement) - An addon that can be used to let objects move smoothly, for a nicer feel.
 
 ## ⚙️ Settings
+* [SteamLobbyList](git@github.com:ChillCube/SteamLobbyList) - A node to display a list of lobbies with buttons to select them
 * [Godot_TopDown_Character_Controller](git@github.com:ChillCube/Godot_TopDown_Character_Controller) - A character controller for top down movement, such as for an RPG game
 * [Godot_SpriteBasedSmoothMenuButton2D](git@github.com:ChillCube/Godot_SpriteBasedSmoothMenuButton2D) - A different way of handling menu buttons, rather than using control nodes. This can be useful for animations among others
 * [ChillSteamPlugin](git@github.com:ChillCube/ChillSteamPlugin) - A custom version of the GodotSteam plugin, made to be comptaible with ChillCube's developer tools and made with specific features for ChillCube
@@ -56,6 +62,7 @@ but if that is not an option for you, you could download them manually. Just mak
 * [Godot_ButtonRemapper](https://github.com/ChillCube/Godot_ButtonRemapper) - This addon is used for remapping buttons. It can be used for allowing the player to edit the input settings
 
 ## Others
+* [SteamLobbyList](git@github.com:ChillCube/SteamLobbyList) - A node to display a list of lobbies with buttons to select them
 * [Godot_TopDown_Character_Controller](git@github.com:ChillCube/Godot_TopDown_Character_Controller) - A character controller for top down movement, such as for an RPG game
 * [Godot_SpriteBasedSmoothMenuButton2D](git@github.com:ChillCube/Godot_SpriteBasedSmoothMenuButton2D) - A different way of handling menu buttons, rather than using control nodes. This can be useful for animations among others
 * [ChillSteamPlugin](git@github.com:ChillCube/ChillSteamPlugin) - A custom version of the GodotSteam plugin, made to be comptaible with ChillCube's developer tools and made with specific features for ChillCube
@@ -67,6 +74,7 @@ but if that is not an option for you, you could download them manually. Just mak
 * [BurneableObject](https://github.com/ChillCube/BurneableObject) - An addon used for burneable objects. This is used for a campfire sim project we are working on
 
 ## 🎴 Card Game Elements
+* [SteamLobbyList](git@github.com:ChillCube/SteamLobbyList) - A node to display a list of lobbies with buttons to select them
 * [Godot_TopDown_Character_Controller](git@github.com:ChillCube/Godot_TopDown_Character_Controller) - A character controller for top down movement, such as for an RPG game
 * [Godot_SpriteBasedSmoothMenuButton2D](git@github.com:ChillCube/Godot_SpriteBasedSmoothMenuButton2D) - A different way of handling menu buttons, rather than using control nodes. This can be useful for animations among others
 * [ChillSteamPlugin](git@github.com:ChillCube/ChillSteamPlugin) - A custom version of the GodotSteam plugin, made to be comptaible with ChillCube's developer tools and made with specific features for ChillCube
@@ -77,6 +85,7 @@ but if that is not an option for you, you could download them manually. Just mak
 * [2dCard](https://github.com/ChillCube/2dCard) - A node that can be used to create 2D cards for card games
 
 ## Networking
+* [SteamLobbyList](git@github.com:ChillCube/SteamLobbyList) - A node to display a list of lobbies with buttons to select them
 * [Godot_TopDown_Character_Controller](git@github.com:ChillCube/Godot_TopDown_Character_Controller) - A character controller for top down movement, such as for an RPG game
 * [Godot_SpriteBasedSmoothMenuButton2D](git@github.com:ChillCube/Godot_SpriteBasedSmoothMenuButton2D) - A different way of handling menu buttons, rather than using control nodes. This can be useful for animations among others
 * [ChillSteamPlugin](git@github.com:ChillCube/ChillSteamPlugin) - A custom version of the GodotSteam plugin, made to be comptaible with ChillCube's developer tools and made with specific features for ChillCube
