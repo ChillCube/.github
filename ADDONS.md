@@ -55,6 +55,7 @@ but if that is not an option for you, you can download them manually. Just make 
 
 ## 🎨 Visual Effects (Shaders/VFX)
 
+
 <!-- DEPENDENCY-TREE-START -->
 ## 🌳 Dependency Tree
 
@@ -67,6 +68,7 @@ flowchart TD
     Godot_SpriteBasedSmoothMenuButton2D["Godot_SpriteBasedSmoothMenuButton2D"]
     SteamLobbyList["SteamLobbyList"]
     TopDownMovement["TopDownMovement"]
+    Godot_Grid["Godot_Grid"]
     Godot_SmoothMovement["Godot_SmoothMovement"]
     n_2D_Node_Arranger --> Godot_SmoothMovement
     Godot_SpriteBasedSmoothMenuButton2D --> Godot_SmoothMovement
@@ -81,6 +83,7 @@ flowchart TD
     click Godot_SpriteBasedSmoothMenuButton2D href "https://github.com/ChillCube/Godot_SpriteBasedSmoothMenuButton2D" _blank
     click SteamLobbyList href "https://github.com/ChillCube/SteamLobbyList" _blank
     click TopDownMovement href "https://github.com/ChillCube/TopDownMovement" _blank
+    click Godot_Grid href "https://github.com/ChillCube/Godot_Grid" _blank
     click Godot_SmoothMovement href "https://github.com/ChillCube/Godot_SmoothMovement" _blank
 ```
 <!-- DEPENDENCY-TREE-END -->
