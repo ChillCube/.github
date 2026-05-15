@@ -14,6 +14,7 @@ but if that is not an option for you, you can download them manually. Just make 
 ## 🧠 AI & Pathfinding
 
 ## 🌐 Networking
+* [SteamLobbyList](https://github.com/ChillCube/SteamLobbyList) - A node to display a list of lobbies with buttons to select them
 * [ChillSteamPlugin](https://github.com/ChillCube/ChillSteamPlugin) - A custom version of the GodotSteam plugin, made to be comptaible with ChillCube's developer tools and made with specific features for ChillCube
 
 ## 🖥️ UI & Menus
