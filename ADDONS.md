@@ -54,6 +54,7 @@ but if that is not an option for you, you can download them manually. Just make 
 ## 🤝 Multiplayer (Local & Online)
 
 ## 🎴 Card Game Systems
+* [PlacementArea2D](https://github.com/ChillCube/PlacementArea2D) - a node that lets you define areas to place objects (like cards) onto the screen
 * [Deck of Nodes](https://github.com/ChillCube/Deck_of_Nodes) - An addon for managing a list of nodes. Useful for card games
 * [Card Hand](https://github.com/ChillCube/Card_Hand) - a godot addon that lets you create a deck of cards. Used for Card2D node
 * [2dCard](https://github.com/ChillCube/2dCard) - A node that can be used to create 2D cards for card games
