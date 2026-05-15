@@ -53,3 +53,33 @@ but if that is not an option for you, you can download them manually. Just make 
 ## 🏆 Progression & Achievements
 
 ## 🎨 Visual Effects (Shaders/VFX)
+
+<!-- DEPENDENCY-TREE-START -->
+## 🌳 Dependency Tree
+
+```mermaid
+flowchart TD
+    n_2D_Node_Arranger["2D_Node_Arranger"]
+    ChillSteamPlugin["ChillSteamPlugin"]
+    Godot_TopDown_Character_Controller["Godot_TopDown_Character_Controller"]
+    n_2d_node_arranger["2d_node_arranger"]
+    Godot_SpriteBasedSmoothMenuButton2D["Godot_SpriteBasedSmoothMenuButton2D"]
+    SteamLobbyList["SteamLobbyList"]
+    TopDownMovement["TopDownMovement"]
+    Godot_SmoothMovement["Godot_SmoothMovement"]
+    n_2D_Node_Arranger --> Godot_SmoothMovement
+    Godot_SpriteBasedSmoothMenuButton2D --> Godot_SmoothMovement
+    Godot_TopDown_Character_Controller --> TopDownMovement
+    SteamLobbyList --> ChillSteamPlugin
+    SteamLobbyList --> n_2d_node_arranger
+    SteamLobbyList --> Godot_SpriteBasedSmoothMenuButton2D
+    click n_2D_Node_Arranger href "https://github.com/ChillCube/2d_node_arranger" _blank
+    click ChillSteamPlugin href "https://github.com/ChillCube/ChillSteamPlugin" _blank
+    click Godot_TopDown_Character_Controller href "https://github.com/ChillCube/Godot_TopDown_Character_Controller" _blank
+    click n_2d_node_arranger href "https://github.com/ChillCube/2d_node_arranger" _blank
+    click Godot_SpriteBasedSmoothMenuButton2D href "https://github.com/ChillCube/Godot_SpriteBasedSmoothMenuButton2D" _blank
+    click SteamLobbyList href "https://github.com/ChillCube/SteamLobbyList" _blank
+    click TopDownMovement href "https://github.com/ChillCube/TopDownMovement" _blank
+    click Godot_SmoothMovement href "https://github.com/ChillCube/Godot_SmoothMovement" _blank
+```
+<!-- DEPENDENCY-TREE-END -->
