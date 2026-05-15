@@ -72,74 +72,84 @@ but if that is not an option for you, you can download them manually. Just make 
 
 
 
+
 <!-- DEPENDENCY-TREE-START -->
 ## 🌳 Dependency Tree
 
 ```mermaid
-flowchart TD
-    n_2D_Node_Arranger["2D_Node_Arranger"]
-    Godot_2D_Mouse_Dragging["Godot_2D_Mouse_Dragging"]
-    SpriteHelper["SpriteHelper"]
-    ChillSteamPlugin["ChillSteamPlugin"]
-    BurneableObject["BurneableObject"]
-    Godot_TopDown_Character_Controller["Godot_TopDown_Character_Controller"]
-    n_2d_node_arranger["2d_node_arranger"]
-    LabelHelper["LabelHelper"]
-    PlacementArea2D["PlacementArea2D"]
-    Godot_LevelUp_Stats_and_EXP_system["Godot_LevelUp-Stats-and-EXP-system"]
-    Godot_SpriteBasedSmoothMenuButton2D["Godot_SpriteBasedSmoothMenuButton2D"]
-    SteamLobbyList["SteamLobbyList"]
-    Deck_of_Nodes["Deck of Nodes"]
-    Godot_HitflashAnimation["Godot_HitflashAnimation"]
-    n_2dCard["2dCard"]
-    Godot_VehicleController2D["Godot_VehicleController2D"]
+flowchart LR
+    classDef core  fill:#4a9eff,stroke:#2471d4,color:#fff,font-weight:bold
+    classDef shared fill:#a29bfe,stroke:#6c5ce7,color:#fff
+
     Card_Hand["Card Hand"]
-    Godot_PlatformerCharacterController["Godot_PlatformerCharacterController"]
-    Godot_StatusBar["Godot_StatusBar"]
-    SpriteAnimations3D["SpriteAnimations3D"]
+    ChillSteamPlugin["ChillSteamPlugin"]
+    Godot_2D_Mouse_Dragging["2D Mouse Dragging"]
+    Godot_Grid["Grid"]
+    Godot_SmoothMovement["SmoothMovement"]
+    Godot_SpriteBasedSmoothMenuButton2D["SpriteBasedSmoothMenuButton2D"]
+    Godot_TopDown_Character_Controller["TopDown Character Controller"]
+    heart_popup["heart popup"]
+    HuntingBehaviour["HuntingBehaviour"]
+    LabelHelper["LabelHelper"]
+    n_2dCard["2dCard"]
+    n_2d_node_arranger["2d node arranger"]
+    n_2D_Node_Arranger["2D Node Arranger"]
+    PlacementArea2D["PlacementArea2D"]
+    SpriteHelper["SpriteHelper"]
+    State["State"]
+    SteamLobbyList["SteamLobbyList"]
     TopDownMovement["TopDownMovement"]
-    heart_popup["heart_popup"]
-    Godot_Grid["Godot_Grid"]
-    Godot_SmoothMovement["Godot_SmoothMovement"]
-    n_2dCard --> Godot_SmoothMovement
-    n_2dCard --> Godot_2D_Mouse_Dragging
-    n_2dCard --> Card_Hand
-    n_2dCard --> Godot_Grid
-    n_2D_Node_Arranger --> Godot_SmoothMovement
-    Card_Hand --> n_2d_node_arranger
+
     Card_Hand --> Godot_SmoothMovement
+    Card_Hand --> n_2d_node_arranger
     Godot_SpriteBasedSmoothMenuButton2D --> Godot_SmoothMovement
     Godot_TopDown_Character_Controller --> TopDownMovement
     heart_popup --> Godot_SmoothMovement
     heart_popup --> LabelHelper
     heart_popup --> SpriteHelper
+    HuntingBehaviour --> State
+    HuntingBehaviour --> TopDownMovement
+    n_2dCard --> Card_Hand
+    n_2dCard --> Godot_2D_Mouse_Dragging
+    n_2dCard --> Godot_Grid
+    n_2dCard --> Godot_SmoothMovement
+    n_2D_Node_Arranger --> Godot_SmoothMovement
     PlacementArea2D --> Godot_2D_Mouse_Dragging
     SteamLobbyList --> ChillSteamPlugin
-    SteamLobbyList --> n_2d_node_arranger
     SteamLobbyList --> Godot_SpriteBasedSmoothMenuButton2D
-    click n_2D_Node_Arranger href "https://github.com/ChillCube/2d_node_arranger" _blank
-    click Godot_2D_Mouse_Dragging href "https://github.com/ChillCube/Godot_2D_Mouse_Dragging" _blank
-    click SpriteHelper href "https://github.com/ChillCube/SpriteHelper" _blank
-    click ChillSteamPlugin href "https://github.com/ChillCube/ChillSteamPlugin" _blank
-    click BurneableObject href "https://github.com/ChillCube/BurneableObject" _blank
-    click Godot_TopDown_Character_Controller href "https://github.com/ChillCube/Godot_TopDown_Character_Controller" _blank
-    click n_2d_node_arranger href "https://github.com/ChillCube/2d_node_arranger" _blank
-    click LabelHelper href "https://github.com/ChillCube/LabelHelper" _blank
-    click PlacementArea2D href "https://github.com/ChillCube/PlacementArea2D" _blank
-    click Godot_LevelUp_Stats_and_EXP_system href "https://github.com/ChillCube/Godot_LevelUp-Stats-and-EXP-system" _blank
-    click Godot_SpriteBasedSmoothMenuButton2D href "https://github.com/ChillCube/Godot_SpriteBasedSmoothMenuButton2D" _blank
-    click SteamLobbyList href "https://github.com/ChillCube/SteamLobbyList" _blank
-    click Deck_of_Nodes href "https://github.com/ChillCube/Deck_of_Nodes" _blank
-    click Godot_HitflashAnimation href "https://github.com/ChillCube/Godot_HitflashAnimation" _blank
-    click n_2dCard href "https://github.com/ChillCube/2dCard" _blank
-    click Godot_VehicleController2D href "https://github.com/ChillCube/Godot_VehicleController2D" _blank
+    SteamLobbyList --> n_2d_node_arranger
+
+    class Card_Hand shared
+    class ChillSteamPlugin shared
+    class Godot_2D_Mouse_Dragging core
+    class Godot_Grid shared
+    class Godot_SmoothMovement core
+    class Godot_SpriteBasedSmoothMenuButton2D shared
+    class LabelHelper shared
+    class n_2d_node_arranger core
+    class SpriteHelper shared
+    class State shared
+    class TopDownMovement core
+
     click Card_Hand href "https://github.com/ChillCube/Card_Hand" _blank
-    click Godot_PlatformerCharacterController href "https://github.com/ChillCube/Godot_PlatformerCharacterController" _blank
-    click Godot_StatusBar href "https://github.com/ChillCube/Godot_StatusBar" _blank
-    click SpriteAnimations3D href "https://github.com/ChillCube/SpriteAnimations3D" _blank
-    click TopDownMovement href "https://github.com/ChillCube/TopDownMovement" _blank
-    click heart_popup href "https://github.com/ChillCube/heart_popup" _blank
+    click ChillSteamPlugin href "https://github.com/ChillCube/ChillSteamPlugin" _blank
+    click Godot_2D_Mouse_Dragging href "https://github.com/ChillCube/Godot_2D_Mouse_Dragging" _blank
     click Godot_Grid href "https://github.com/ChillCube/Godot_Grid" _blank
     click Godot_SmoothMovement href "https://github.com/ChillCube/Godot_SmoothMovement" _blank
+    click Godot_SpriteBasedSmoothMenuButton2D href "https://github.com/ChillCube/Godot_SpriteBasedSmoothMenuButton2D" _blank
+    click Godot_TopDown_Character_Controller href "https://github.com/ChillCube/Godot_TopDown_Character_Controller" _blank
+    click heart_popup href "https://github.com/ChillCube/heart_popup" _blank
+    click HuntingBehaviour href "https://github.com/ChillCube/HuntingBehaviour" _blank
+    click LabelHelper href "https://github.com/ChillCube/LabelHelper" _blank
+    click n_2dCard href "https://github.com/ChillCube/2dCard" _blank
+    click n_2d_node_arranger href "https://github.com/ChillCube/2d_node_arranger" _blank
+    click n_2D_Node_Arranger href "https://github.com/ChillCube/2d_node_arranger" _blank
+    click PlacementArea2D href "https://github.com/ChillCube/PlacementArea2D" _blank
+    click SpriteHelper href "https://github.com/ChillCube/SpriteHelper" _blank
+    click State href "https://github.com/ChillCube/State" _blank
+    click SteamLobbyList href "https://github.com/ChillCube/SteamLobbyList" _blank
+    click TopDownMovement href "https://github.com/ChillCube/TopDownMovement" _blank
 ```
+
+**Standalone addons:** [BurneableObject](https://github.com/ChillCube/BurneableObject) · [Deck of Nodes](https://github.com/ChillCube/Deck_of_Nodes) · [HitflashAnimation](https://github.com/ChillCube/Godot_HitflashAnimation) · [LevelUp-Stats-and-EXP-system](https://github.com/ChillCube/Godot_LevelUp-Stats-and-EXP-system) · [PlatformerCharacterController](https://github.com/ChillCube/Godot_PlatformerCharacterController) · [StatusBar](https://github.com/ChillCube/Godot_StatusBar) · [VehicleController2D](https://github.com/ChillCube/Godot_VehicleController2D) · [SpriteAnimations3D](https://github.com/ChillCube/SpriteAnimations3D)
 <!-- DEPENDENCY-TREE-END -->
