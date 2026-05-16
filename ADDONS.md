@@ -32,6 +32,7 @@ but if that is not an option for you, you can download them manually. Just make 
 * [Godot_SpriteBasedSmoothMenuButton2D](https://github.com/ChillCube/Godot_SpriteBasedSmoothMenuButton2D) - A different way of handling menu buttons, rather than using control nodes. This can be useful for animations among others
 
 ## ⚔️ Combat & Abilities
+* [GodotBullet](https://github.com/ChillCube/GodotBullet) - A simple button node for godot
 
 ## 📦 Inventory & Items
 * [BurneableObject](https://github.com/ChillCube/BurneableObject) - An addon used for burneable objects. This is used for a campfire sim project we are working on
