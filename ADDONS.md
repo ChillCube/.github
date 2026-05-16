@@ -74,6 +74,7 @@ but if that is not an option for you, you can download them manually. Just make 
 
 
 
+
 <!-- DEPENDENCY-TREE-START -->
 ## 🌳 Dependency Tree
 
@@ -85,6 +86,7 @@ flowchart LR
     Card_Hand["Card Hand"]
     ChillSteamPlugin["ChillSteamPlugin"]
     Godot_2D_Mouse_Dragging["2D Mouse Dragging"]
+    GodotBullet["GodotBullet"]
     Godot_Grid["Grid"]
     Godot_SmoothMovement["SmoothMovement"]
     Godot_SpriteBasedSmoothMenuButton2D["SpriteBasedSmoothMenuButton2D"]
@@ -103,6 +105,9 @@ flowchart LR
 
     Card_Hand --> Godot_SmoothMovement
     Card_Hand --> n_2d_node_arranger
+    Godot_2D_Mouse_Dragging --> Godot_SmoothMovement
+    GodotBullet --> SpriteHelper
+    Godot_SmoothMovement --> Godot_SmoothMovement
     Godot_SpriteBasedSmoothMenuButton2D --> Godot_SmoothMovement
     Godot_TopDown_Character_Controller --> TopDownMovement
     heart_popup --> Godot_SmoothMovement
@@ -128,13 +133,14 @@ flowchart LR
     class Godot_SpriteBasedSmoothMenuButton2D shared
     class LabelHelper shared
     class n_2d_node_arranger core
-    class SpriteHelper shared
+    class SpriteHelper core
     class State shared
     class TopDownMovement core
 
     click Card_Hand href "https://github.com/ChillCube/Card_Hand" _blank
     click ChillSteamPlugin href "https://github.com/ChillCube/ChillSteamPlugin" _blank
     click Godot_2D_Mouse_Dragging href "https://github.com/ChillCube/Godot_2D_Mouse_Dragging" _blank
+    click GodotBullet href "https://github.com/ChillCube/GodotBullet" _blank
     click Godot_Grid href "https://github.com/ChillCube/Godot_Grid" _blank
     click Godot_SmoothMovement href "https://github.com/ChillCube/Godot_SmoothMovement" _blank
     click Godot_SpriteBasedSmoothMenuButton2D href "https://github.com/ChillCube/Godot_SpriteBasedSmoothMenuButton2D" _blank
