@@ -30,6 +30,7 @@ but if that is not an option for you, you can download them manually. Just make 
 * [ChillSteamPlugin](https://github.com/ChillCube/ChillSteamPlugin) - A custom version of the GodotSteam plugin, made to be comptaible with ChillCube's developer tools and made with specific features for ChillCube
 
 ## 🖥️ UI & Menus
+* [InventoryGrid2D](https://github.com/ChillCube/InventoryGrid2D) - A 2D inventory grid in godot
 * [SmoothUI](https://github.com/ChillCube/SmoothUI) - A base node for smooth UI nodes used by ChillCube
 * [ItemFrame2D](https://github.com/ChillCube/ItemFrame2D) - A node to visualize items on the screen, useful for inventory UI
 * [heart_popup](https://github.com/ChillCube/heart_popup) - a node that can be attached and used to display how much health something has, can work with other stats too
