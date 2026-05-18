@@ -92,6 +92,7 @@ but if that is not an option for you, you can download them manually. Just make 
 
 
 
+
 <!-- DEPENDENCY-TREE-START -->
 ## 🌳 Dependency Tree
 
@@ -130,7 +131,6 @@ flowchart LR
     CraftBench --> SimpleCraftingRecipees
     Godot_2D_Mouse_Dragging --> Godot_SmoothMovement
     GodotBullet --> SpriteHelper
-    Godot_SmoothMovement --> Godot_SmoothMovement
     Godot_SpriteBasedSmoothMenuButton2D --> SmoothUI
     Godot_TopDown_Character_Controller --> TopDownMovement
     heart_popup --> Godot_SmoothMovement
