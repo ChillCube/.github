@@ -90,6 +90,7 @@ but if that is not an option for you, you can download them manually. Just make 
 
 
 
+
 <!-- DEPENDENCY-TREE-START -->
 ## 🌳 Dependency Tree
 
@@ -117,6 +118,7 @@ flowchart LR
     n_2D_Node_Arranger["2D Node Arranger"]
     PlacementArea2D["PlacementArea2D"]
     SimpleCraftingRecipees["SimpleCraftingRecipees"]
+    SmoothUI["SmoothUI"]
     SpriteHelper["SpriteHelper"]
     State["State"]
     SteamLobbyList["SteamLobbyList"]
@@ -143,6 +145,7 @@ flowchart LR
     n_2D_Node_Arranger --> Godot_SmoothMovement
     PlacementArea2D --> Godot_2D_Mouse_Dragging
     SimpleCraftingRecipees --> InventoryGodot
+    SmoothUI --> Godot_SmoothMovement
     SteamLobbyList --> ChillSteamPlugin
     SteamLobbyList --> Godot_SpriteBasedSmoothMenuButton2D
     SteamLobbyList --> n_2d_node_arranger
@@ -180,6 +183,7 @@ flowchart LR
     click n_2D_Node_Arranger href "https://github.com/ChillCube/2d_node_arranger" _blank
     click PlacementArea2D href "https://github.com/ChillCube/PlacementArea2D" _blank
     click SimpleCraftingRecipees href "https://github.com/ChillCube/SimpleCraftingRecipees" _blank
+    click SmoothUI href "https://github.com/ChillCube/SmoothUI" _blank
     click SpriteHelper href "https://github.com/ChillCube/SpriteHelper" _blank
     click State href "https://github.com/ChillCube/State" _blank
     click SteamLobbyList href "https://github.com/ChillCube/SteamLobbyList" _blank
