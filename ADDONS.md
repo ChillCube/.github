@@ -8,7 +8,6 @@ but if that is not an option for you, you can download them manually. Just make 
 ---
 
 ## 🎮 Core Systems
-* [ItemFrameGrid2D](https://github.com/ChillCube/ItemFrameGrid2D) - A node for displaying a grid of item frames
 * [State](https://github.com/ChillCube/State) - A godot addon that adds a state node, which can be used as a base for creating state nodes
 * [SpriteHelper](https://github.com/ChillCube/SpriteHelper) - A bunch of helper function for managing sprite2D's in godot
 * [LabelHelper](https://github.com/ChillCube/LabelHelper) - Functions that are useful for dealing with text and labels
@@ -16,21 +15,17 @@ but if that is not an option for you, you can download them manually. Just make 
 * [TopDownMovement](https://github.com/ChillCube/TopDownMovement) - A godot addon used to create top down movement. Can be used for both player characters and NPCs
 
 ## 🕹️ Character Controllers
-* [ItemFrameGrid2D](https://github.com/ChillCube/ItemFrameGrid2D) - A node for displaying a grid of item frames
 * [Godot_VehicleController2D](https://github.com/ChillCube/Godot_VehicleController2D) - A character controller for vehicles in 2D (top down)
 * [Godot_PlatformerCharacterController](https://github.com/ChillCube/Godot_PlatformerCharacterController) - A simple character controller for platformer games in Godot
 
 ## 🧠 AI & Pathfinding
-* [ItemFrameGrid2D](https://github.com/ChillCube/ItemFrameGrid2D) - A node for displaying a grid of item frames
 * [HuntingBehaviour](https://github.com/ChillCube/HuntingBehaviour) - an addon to create hunting behaviour on a node
 
 ## 🌐 Networking
-* [ItemFrameGrid2D](https://github.com/ChillCube/ItemFrameGrid2D) - A node for displaying a grid of item frames
 * [SteamLobbyList](https://github.com/ChillCube/SteamLobbyList) - A node to display a list of lobbies with buttons to select them
 * [ChillSteamPlugin](https://github.com/ChillCube/ChillSteamPlugin) - A custom version of the GodotSteam plugin, made to be comptaible with ChillCube's developer tools and made with specific features for ChillCube
 
 ## 🖥️ UI & Menus
-* [ItemFrameGrid2D](https://github.com/ChillCube/ItemFrameGrid2D) - A node for displaying a grid of item frames
 * [SmoothUI](https://github.com/ChillCube/SmoothUI) - A base node for smooth UI nodes used by ChillCube
 * [ItemFrame2D](https://github.com/ChillCube/ItemFrame2D) - A node to visualize items on the screen, useful for inventory UI
 * [heart_popup](https://github.com/ChillCube/heart_popup) - a node that can be attached and used to display how much health something has, can work with other stats too
@@ -39,7 +34,6 @@ but if that is not an option for you, you can download them manually. Just make 
 * [Godot_SpriteBasedSmoothMenuButton2D](https://github.com/ChillCube/Godot_SpriteBasedSmoothMenuButton2D) - A different way of handling menu buttons, rather than using control nodes. This can be useful for animations among others
 
 ## ⚔️ Combat & Abilities
-* [ItemFrameGrid2D](https://github.com/ChillCube/ItemFrameGrid2D) - A node for displaying a grid of item frames
 * [GodotBullet](https://github.com/ChillCube/GodotBullet) - A simple button node for godot
 
 ## 📦 Inventory & Items
@@ -50,52 +44,38 @@ but if that is not an option for you, you can download them manually. Just make 
 * [BurneableObject](https://github.com/ChillCube/BurneableObject) - An addon used for burneable objects. This is used for a campfire sim project we are working on
 
 ## 🗺️ World & Level Management
-* [ItemFrameGrid2D](https://github.com/ChillCube/ItemFrameGrid2D) - A node for displaying a grid of item frames
 
 ## 🎵 Audio Management
-* [ItemFrameGrid2D](https://github.com/ChillCube/ItemFrameGrid2D) - A node for displaying a grid of item frames
 
 ## 📊 Saving & Loading
-* [ItemFrameGrid2D](https://github.com/ChillCube/ItemFrameGrid2D) - A node for displaying a grid of item frames
 
 ## ⚙️ Settings & Configuration
-* [ItemFrameGrid2D](https://github.com/ChillCube/ItemFrameGrid2D) - A node for displaying a grid of item frames
 
 ## ✨ Polish & Juice
-* [ItemFrameGrid2D](https://github.com/ChillCube/ItemFrameGrid2D) - A node for displaying a grid of item frames
 
 ## 🎬 Camera Systems
-* [ItemFrameGrid2D](https://github.com/ChillCube/ItemFrameGrid2D) - A node for displaying a grid of item frames
 
 ## 📝 Dialogue & Quests
-* [ItemFrameGrid2D](https://github.com/ChillCube/ItemFrameGrid2D) - A node for displaying a grid of item frames
 
 ## 🧩 Procedural Generation
-* [ItemFrameGrid2D](https://github.com/ChillCube/ItemFrameGrid2D) - A node for displaying a grid of item frames
 
 ## 🔧 Editor Tools
-* [ItemFrameGrid2D](https://github.com/ChillCube/ItemFrameGrid2D) - A node for displaying a grid of item frames
 
 ## 🤝 Multiplayer (Local & Online)
-* [ItemFrameGrid2D](https://github.com/ChillCube/ItemFrameGrid2D) - A node for displaying a grid of item frames
 
 ## 🎴 Card Game Systems
-* [ItemFrameGrid2D](https://github.com/ChillCube/ItemFrameGrid2D) - A node for displaying a grid of item frames
 * [PlacementArea2D](https://github.com/ChillCube/PlacementArea2D) - a node that lets you define areas to place objects (like cards) onto the screen
 * [Deck of Nodes](https://github.com/ChillCube/Deck_of_Nodes) - An addon for managing a list of nodes. Useful for card games
 * [Card Hand](https://github.com/ChillCube/Card_Hand) - a godot addon that lets you create a deck of cards. Used for Card2D node
 * [2dCard](https://github.com/ChillCube/2dCard) - A node that can be used to create 2D cards for card games
 
 ## 💰 Economy & Shops
-* [ItemFrameGrid2D](https://github.com/ChillCube/ItemFrameGrid2D) - A node for displaying a grid of item frames
 * [CurrencyGodot](https://github.com/ChillCube/CurrencyGodot) - A custom resource meant to help create economic simulations for fantasy currencies
 
 ## 🏆 Progression & Achievements
-* [ItemFrameGrid2D](https://github.com/ChillCube/ItemFrameGrid2D) - A node for displaying a grid of item frames
 * [Godot_LevelUp-Stats-and-EXP-system](https://github.com/ChillCube/Godot_LevelUp-Stats-and-EXP-system) - A system for level ups, stats and exp for godot
 
 ## 🎨 Visual Effects (Shaders/VFX)
-* [ItemFrameGrid2D](https://github.com/ChillCube/ItemFrameGrid2D) - A node for displaying a grid of item frames
 
 
 
