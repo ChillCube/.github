@@ -8,6 +8,7 @@ but if that is not an option for you, you can download them manually. Just make 
 ---
 
 ## 🎮 Core Systems
+* [GridArranger](https://github.com/ChillCube/GridArranger) - Arranges and creates nodes in a grid
 * [Godot_SmoothMovement](https://github.com/ChillCube/Godot_SmoothMovement) - A godot addon that enables smooth movement on a node using a global_target_position variable
 * [Godot_2D_Mouse_Dragging](https://github.com/ChillCube/Godot_2D_Mouse_Dragging) - A godot addon that makes any object draggable with the mouse by adding it as a child node
 * [State](https://github.com/ChillCube/State) - A godot addon that adds a state node, which can be used as a base for creating state nodes
