@@ -104,6 +104,7 @@ but if that is not an option for you, you can download them manually. Just make 
 
 
 
+
 <!-- DEPENDENCY-TREE-START -->
 ## 🌳 Dependency Tree
 
@@ -125,6 +126,7 @@ flowchart LR
     heart_popup["heart popup"]
     HuntingBehaviour["HuntingBehaviour"]
     InventoryGodot["InventoryGodot"]
+    InventoryGrid2D["InventoryGrid2D"]
     ItemFrame2D["ItemFrame2D"]
     ItemFrameGrid2D["ItemFrameGrid2D"]
     LabelHelper["LabelHelper"]
@@ -152,6 +154,8 @@ flowchart LR
     heart_popup --> SpriteHelper
     HuntingBehaviour --> State
     HuntingBehaviour --> TopDownMovement
+    InventoryGrid2D --> InventoryGodot
+    InventoryGrid2D --> ItemFrameGrid2D
     ItemFrame2D --> InventoryGodot
     ItemFrame2D --> SmoothUI
     ItemFrameGrid2D --> GridArranger
@@ -178,6 +182,7 @@ flowchart LR
     class GridArranger shared
     class InventoryGodot core
     class ItemFrame2D shared
+    class ItemFrameGrid2D shared
     class LabelHelper shared
     class n_2d_node_arranger core
     class SimpleCraftingRecipees shared
@@ -199,6 +204,7 @@ flowchart LR
     click heart_popup href "https://github.com/ChillCube/heart_popup" _blank
     click HuntingBehaviour href "https://github.com/ChillCube/HuntingBehaviour" _blank
     click InventoryGodot href "https://github.com/ChillCube/InventoryGodot" _blank
+    click InventoryGrid2D href "https://github.com/ChillCube/InventoryGrid2D" _blank
     click ItemFrame2D href "https://github.com/ChillCube/ItemFrame2D" _blank
     click ItemFrameGrid2D href "https://github.com/ChillCube/ItemFrameGrid2D" _blank
     click LabelHelper href "https://github.com/ChillCube/LabelHelper" _blank
@@ -214,5 +220,5 @@ flowchart LR
     click TopDownMovement href "https://github.com/ChillCube/TopDownMovement" _blank
 ```
 
-**Standalone addons:** [BurneableObject](https://github.com/ChillCube/BurneableObject) · [CurrencyGodot](https://github.com/ChillCube/CurrencyGodot) · [Deck of Nodes](https://github.com/ChillCube/Deck_of_Nodes) · [HitflashAnimation](https://github.com/ChillCube/Godot_HitflashAnimation) · [LevelUp-Stats-and-EXP-system](https://github.com/ChillCube/Godot_LevelUp-Stats-and-EXP-system) · [PlatformerCharacterController](https://github.com/ChillCube/Godot_PlatformerCharacterController) · [StatusBar](https://github.com/ChillCube/Godot_StatusBar) · [VehicleController2D](https://github.com/ChillCube/Godot_VehicleController2D) · [InventoryGrid2D](https://github.com/ChillCube/InventoryGrid2D) · [SpriteAnimations3D](https://github.com/ChillCube/SpriteAnimations3D)
+**Standalone addons:** [BurneableObject](https://github.com/ChillCube/BurneableObject) · [CurrencyGodot](https://github.com/ChillCube/CurrencyGodot) · [Deck of Nodes](https://github.com/ChillCube/Deck_of_Nodes) · [HitflashAnimation](https://github.com/ChillCube/Godot_HitflashAnimation) · [LevelUp-Stats-and-EXP-system](https://github.com/ChillCube/Godot_LevelUp-Stats-and-EXP-system) · [PlatformerCharacterController](https://github.com/ChillCube/Godot_PlatformerCharacterController) · [StatusBar](https://github.com/ChillCube/Godot_StatusBar) · [VehicleController2D](https://github.com/ChillCube/Godot_VehicleController2D) · [SpriteAnimations3D](https://github.com/ChillCube/SpriteAnimations3D)
 <!-- DEPENDENCY-TREE-END -->
