@@ -56,6 +56,7 @@ but if that is not an option for you, you can download them manually. Just make 
 ## ⚙️ Settings & Configuration
 
 ## ✨ Polish & Juice
+* [SpriteAnimations3D](https://github.com/ChillCube/SpriteAnimations3D) - A set of animations that can be used on 3D sprites
 * [Godot_HitflashAnimation](https://github.com/ChillCube/Godot_HitflashAnimation) - A godot addon that can be used to apply hitlfash animations to nodes
 
 ## 🎬 Camera Systems
