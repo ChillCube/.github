@@ -87,6 +87,7 @@ but if that is not an option for you, you can download them manually. Just make 
 
 
 
+
 <!-- DEPENDENCY-TREE-START -->
 ## 🌳 Dependency Tree
 
@@ -107,6 +108,7 @@ flowchart LR
     heart_popup["heart popup"]
     HuntingBehaviour["HuntingBehaviour"]
     InventoryGodot["InventoryGodot"]
+    ItemFrame2D["ItemFrame2D"]
     LabelHelper["LabelHelper"]
     n_2dCard["2dCard"]
     n_2d_node_arranger["2d node arranger"]
@@ -131,6 +133,7 @@ flowchart LR
     heart_popup --> SpriteHelper
     HuntingBehaviour --> State
     HuntingBehaviour --> TopDownMovement
+    ItemFrame2D --> InventoryGodot
     n_2dCard --> Card_Hand
     n_2dCard --> Godot_2D_Mouse_Dragging
     n_2dCard --> Godot_Grid
@@ -148,7 +151,7 @@ flowchart LR
     class Godot_Grid shared
     class Godot_SmoothMovement core
     class Godot_SpriteBasedSmoothMenuButton2D shared
-    class InventoryGodot shared
+    class InventoryGodot core
     class LabelHelper shared
     class n_2d_node_arranger core
     class SimpleCraftingRecipees shared
@@ -168,6 +171,7 @@ flowchart LR
     click heart_popup href "https://github.com/ChillCube/heart_popup" _blank
     click HuntingBehaviour href "https://github.com/ChillCube/HuntingBehaviour" _blank
     click InventoryGodot href "https://github.com/ChillCube/InventoryGodot" _blank
+    click ItemFrame2D href "https://github.com/ChillCube/ItemFrame2D" _blank
     click LabelHelper href "https://github.com/ChillCube/LabelHelper" _blank
     click n_2dCard href "https://github.com/ChillCube/2dCard" _blank
     click n_2d_node_arranger href "https://github.com/ChillCube/2d_node_arranger" _blank
