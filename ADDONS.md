@@ -26,6 +26,7 @@ but if that is not an option for you, you can download them manually. Just make 
 * [ChillSteamPlugin](https://github.com/ChillCube/ChillSteamPlugin) - A custom version of the GodotSteam plugin, made to be comptaible with ChillCube's developer tools and made with specific features for ChillCube
 
 ## 🖥️ UI & Menus
+* [ItemFrame2D](https://github.com/ChillCube/ItemFrame2D) - A node to visualize items on the screen, useful for inventory UI
 * [heart_popup](https://github.com/ChillCube/heart_popup) - a node that can be attached and used to display how much health something has, can work with other stats too
 * [Godot_StatusBar](https://github.com/ChillCube/Godot_StatusBar) - An addon that can be used to display custom status bars, like healthbars, xp bars, etc in your godot game.
 * [2D_Node_Arranger](https://github.com/ChillCube/2d_node_arranger) - A node that you can use to arrange node in certain patterns. Useful for UI elements, cards for a card game, etc
