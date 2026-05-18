@@ -101,6 +101,7 @@ but if that is not an option for you, you can download them manually. Just make 
 
 
 
+
 <!-- DEPENDENCY-TREE-START -->
 ## 🌳 Dependency Tree
 
@@ -109,9 +110,107 @@ flowchart LR
     classDef core  fill:#4a9eff,stroke:#2471d4,color:#fff,font-weight:bold
     classDef shared fill:#a29bfe,stroke:#6c5ce7,color:#fff
 
+    Card_Hand["Card Hand"]
+    ChillSteamPlugin["ChillSteamPlugin"]
+    CraftBench["CraftBench"]
+    Godot_2D_Mouse_Dragging["2D Mouse Dragging"]
+    GodotBullet["GodotBullet"]
+    Godot_Grid["Grid"]
+    Godot_SmoothMovement["SmoothMovement"]
+    Godot_SpriteBasedSmoothMenuButton2D["SpriteBasedSmoothMenuButton2D"]
+    Godot_TopDown_Character_Controller["TopDown Character Controller"]
+    GridArranger["GridArranger"]
+    heart_popup["heart popup"]
+    HuntingBehaviour["HuntingBehaviour"]
+    InventoryGodot["InventoryGodot"]
+    ItemFrame2D["ItemFrame2D"]
+    ItemFrameGrid2D["ItemFrameGrid2D"]
+    LabelHelper["LabelHelper"]
+    n_2dCard["2dCard"]
+    n_2d_node_arranger["2d node arranger"]
+    n_2D_Node_Arranger["2D Node Arranger"]
+    PlacementArea2D["PlacementArea2D"]
+    SimpleCraftingRecipees["SimpleCraftingRecipees"]
+    SmoothUI["SmoothUI"]
+    SpriteHelper["SpriteHelper"]
+    State["State"]
+    SteamLobbyList["SteamLobbyList"]
+    TopDownMovement["TopDownMovement"]
 
-     --> 
+    Card_Hand --> Godot_SmoothMovement
+    Card_Hand --> n_2d_node_arranger
+    CraftBench --> SimpleCraftingRecipees
+    Godot_2D_Mouse_Dragging --> Godot_SmoothMovement
+    GodotBullet --> SpriteHelper
+    Godot_SpriteBasedSmoothMenuButton2D --> SmoothUI
+    Godot_TopDown_Character_Controller --> TopDownMovement
+    GridArranger --> n_2d_node_arranger
+    heart_popup --> Godot_SmoothMovement
+    heart_popup --> LabelHelper
+    heart_popup --> SpriteHelper
+    HuntingBehaviour --> State
+    HuntingBehaviour --> TopDownMovement
+    ItemFrame2D --> InventoryGodot
+    ItemFrame2D --> SmoothUI
+    ItemFrameGrid2D --> GridArranger
+    ItemFrameGrid2D --> ItemFrame2D
+    n_2dCard --> Card_Hand
+    n_2dCard --> Godot_2D_Mouse_Dragging
+    n_2dCard --> Godot_Grid
+    n_2dCard --> Godot_SmoothMovement
+    n_2D_Node_Arranger --> Godot_SmoothMovement
+    PlacementArea2D --> Godot_2D_Mouse_Dragging
+    SimpleCraftingRecipees --> InventoryGodot
+    SmoothUI --> Godot_SmoothMovement
+    SmoothUI --> n_2d_node_arranger
+    SteamLobbyList --> ChillSteamPlugin
+    SteamLobbyList --> Godot_SpriteBasedSmoothMenuButton2D
+    SteamLobbyList --> n_2d_node_arranger
 
+    class Card_Hand shared
+    class ChillSteamPlugin shared
+    class Godot_2D_Mouse_Dragging core
+    class Godot_Grid shared
+    class Godot_SmoothMovement core
+    class Godot_SpriteBasedSmoothMenuButton2D shared
+    class GridArranger shared
+    class InventoryGodot core
+    class ItemFrame2D shared
+    class LabelHelper shared
+    class n_2d_node_arranger core
+    class SimpleCraftingRecipees shared
+    class SmoothUI core
+    class SpriteHelper core
+    class State shared
+    class TopDownMovement core
 
+    click Card_Hand href "https://github.com/ChillCube/Card_Hand" _blank
+    click ChillSteamPlugin href "https://github.com/ChillCube/ChillSteamPlugin" _blank
+    click CraftBench href "https://github.com/ChillCube/CraftBench" _blank
+    click Godot_2D_Mouse_Dragging href "https://github.com/ChillCube/Godot_2D_Mouse_Dragging" _blank
+    click GodotBullet href "https://github.com/ChillCube/GodotBullet" _blank
+    click Godot_Grid href "https://github.com/ChillCube/Godot_Grid" _blank
+    click Godot_SmoothMovement href "https://github.com/ChillCube/Godot_SmoothMovement" _blank
+    click Godot_SpriteBasedSmoothMenuButton2D href "https://github.com/ChillCube/Godot_SpriteBasedSmoothMenuButton2D" _blank
+    click Godot_TopDown_Character_Controller href "https://github.com/ChillCube/Godot_TopDown_Character_Controller" _blank
+    click GridArranger href "https://github.com/ChillCube/GridArranger" _blank
+    click heart_popup href "https://github.com/ChillCube/heart_popup" _blank
+    click HuntingBehaviour href "https://github.com/ChillCube/HuntingBehaviour" _blank
+    click InventoryGodot href "https://github.com/ChillCube/InventoryGodot" _blank
+    click ItemFrame2D href "https://github.com/ChillCube/ItemFrame2D" _blank
+    click ItemFrameGrid2D href "https://github.com/ChillCube/ItemFrameGrid2D" _blank
+    click LabelHelper href "https://github.com/ChillCube/LabelHelper" _blank
+    click n_2dCard href "https://github.com/ChillCube/2dCard" _blank
+    click n_2d_node_arranger href "https://github.com/ChillCube/2d_node_arranger" _blank
+    click n_2D_Node_Arranger href "https://github.com/ChillCube/2d_node_arranger" _blank
+    click PlacementArea2D href "https://github.com/ChillCube/PlacementArea2D" _blank
+    click SimpleCraftingRecipees href "https://github.com/ChillCube/SimpleCraftingRecipees" _blank
+    click SmoothUI href "https://github.com/ChillCube/SmoothUI" _blank
+    click SpriteHelper href "https://github.com/ChillCube/SpriteHelper" _blank
+    click State href "https://github.com/ChillCube/State" _blank
+    click SteamLobbyList href "https://github.com/ChillCube/SteamLobbyList" _blank
+    click TopDownMovement href "https://github.com/ChillCube/TopDownMovement" _blank
 ```
+
+**Standalone addons:** [BurneableObject](https://github.com/ChillCube/BurneableObject) · [CurrencyGodot](https://github.com/ChillCube/CurrencyGodot) · [Deck of Nodes](https://github.com/ChillCube/Deck_of_Nodes) · [HitflashAnimation](https://github.com/ChillCube/Godot_HitflashAnimation) · [LevelUp-Stats-and-EXP-system](https://github.com/ChillCube/Godot_LevelUp-Stats-and-EXP-system) · [PlatformerCharacterController](https://github.com/ChillCube/Godot_PlatformerCharacterController) · [StatusBar](https://github.com/ChillCube/Godot_StatusBar) · [VehicleController2D](https://github.com/ChillCube/Godot_VehicleController2D) · [SpriteAnimations3D](https://github.com/ChillCube/SpriteAnimations3D)
 <!-- DEPENDENCY-TREE-END -->
