@@ -53,6 +53,7 @@ but if that is not an option for you, you can download them manually. Just make 
 ## ⚙️ Settings & Configuration
 
 ## ✨ Polish & Juice
+* [Godot_HitflashAnimation](https://github.com/ChillCube/Godot_HitflashAnimation) - A godot addon that can be used to apply hitlfash animations to nodes
 
 ## 🎬 Camera Systems
 
