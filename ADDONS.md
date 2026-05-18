@@ -91,6 +91,7 @@ but if that is not an option for you, you can download them manually. Just make 
 
 
 
+
 <!-- DEPENDENCY-TREE-START -->
 ## 🌳 Dependency Tree
 
@@ -130,7 +131,7 @@ flowchart LR
     Godot_2D_Mouse_Dragging --> Godot_SmoothMovement
     GodotBullet --> SpriteHelper
     Godot_SmoothMovement --> Godot_SmoothMovement
-    Godot_SpriteBasedSmoothMenuButton2D --> Godot_SmoothMovement
+    Godot_SpriteBasedSmoothMenuButton2D --> SmoothUI
     Godot_TopDown_Character_Controller --> TopDownMovement
     heart_popup --> Godot_SmoothMovement
     heart_popup --> LabelHelper
@@ -138,6 +139,7 @@ flowchart LR
     HuntingBehaviour --> State
     HuntingBehaviour --> TopDownMovement
     ItemFrame2D --> InventoryGodot
+    ItemFrame2D --> SmoothUI
     n_2dCard --> Card_Hand
     n_2dCard --> Godot_2D_Mouse_Dragging
     n_2dCard --> Godot_Grid
@@ -160,6 +162,7 @@ flowchart LR
     class LabelHelper shared
     class n_2d_node_arranger core
     class SimpleCraftingRecipees shared
+    class SmoothUI core
     class SpriteHelper core
     class State shared
     class TopDownMovement core
