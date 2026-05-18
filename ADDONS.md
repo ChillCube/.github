@@ -64,6 +64,7 @@ but if that is not an option for you, you can download them manually. Just make 
 * [2dCard](https://github.com/ChillCube/2dCard) - A node that can be used to create 2D cards for card games
 
 ## 💰 Economy & Shops
+* [CurrencyGodot](https://github.com/ChillCube/CurrencyGodot) - A custom resource meant to help create economic simulations for fantasy currencies
 
 ## 🏆 Progression & Achievements
 * [Godot_LevelUp-Stats-and-EXP-system](https://github.com/ChillCube/Godot_LevelUp-Stats-and-EXP-system) - A system for level ups, stats and exp for godot
