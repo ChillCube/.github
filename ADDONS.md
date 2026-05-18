@@ -35,6 +35,7 @@ but if that is not an option for you, you can download them manually. Just make 
 * [GodotBullet](https://github.com/ChillCube/GodotBullet) - A simple button node for godot
 
 ## 📦 Inventory & Items
+* [SimpleCraftingRecipees](https://github.com/ChillCube/SimpleCraftingRecipees) - A simple addon that provides a custom resource to save crafting recipees
 * [InventoryGodot](https://github.com/ChillCube/InventoryGodot) - Provides an inventory and item resource used for inventory management
 * [BurneableObject](https://github.com/ChillCube/BurneableObject) - An addon used for burneable objects. This is used for a campfire sim project we are working on
 
