@@ -82,6 +82,7 @@ but if that is not an option for you, you can download them manually. Just make 
 
 
 
+
 <!-- DEPENDENCY-TREE-START -->
 ## 🌳 Dependency Tree
 
@@ -100,11 +101,13 @@ flowchart LR
     Godot_TopDown_Character_Controller["TopDown Character Controller"]
     heart_popup["heart popup"]
     HuntingBehaviour["HuntingBehaviour"]
+    InventoryGodot["InventoryGodot"]
     LabelHelper["LabelHelper"]
     n_2dCard["2dCard"]
     n_2d_node_arranger["2d node arranger"]
     n_2D_Node_Arranger["2D Node Arranger"]
     PlacementArea2D["PlacementArea2D"]
+    SimpleCraftingRecipees["SimpleCraftingRecipees"]
     SpriteHelper["SpriteHelper"]
     State["State"]
     SteamLobbyList["SteamLobbyList"]
@@ -128,6 +131,7 @@ flowchart LR
     n_2dCard --> Godot_SmoothMovement
     n_2D_Node_Arranger --> Godot_SmoothMovement
     PlacementArea2D --> Godot_2D_Mouse_Dragging
+    SimpleCraftingRecipees --> InventoryGodot
     SteamLobbyList --> ChillSteamPlugin
     SteamLobbyList --> Godot_SpriteBasedSmoothMenuButton2D
     SteamLobbyList --> n_2d_node_arranger
@@ -138,6 +142,7 @@ flowchart LR
     class Godot_Grid shared
     class Godot_SmoothMovement core
     class Godot_SpriteBasedSmoothMenuButton2D shared
+    class InventoryGodot shared
     class LabelHelper shared
     class n_2d_node_arranger core
     class SpriteHelper core
@@ -154,16 +159,18 @@ flowchart LR
     click Godot_TopDown_Character_Controller href "https://github.com/ChillCube/Godot_TopDown_Character_Controller" _blank
     click heart_popup href "https://github.com/ChillCube/heart_popup" _blank
     click HuntingBehaviour href "https://github.com/ChillCube/HuntingBehaviour" _blank
+    click InventoryGodot href "https://github.com/ChillCube/InventoryGodot" _blank
     click LabelHelper href "https://github.com/ChillCube/LabelHelper" _blank
     click n_2dCard href "https://github.com/ChillCube/2dCard" _blank
     click n_2d_node_arranger href "https://github.com/ChillCube/2d_node_arranger" _blank
     click n_2D_Node_Arranger href "https://github.com/ChillCube/2d_node_arranger" _blank
     click PlacementArea2D href "https://github.com/ChillCube/PlacementArea2D" _blank
+    click SimpleCraftingRecipees href "https://github.com/ChillCube/SimpleCraftingRecipees" _blank
     click SpriteHelper href "https://github.com/ChillCube/SpriteHelper" _blank
     click State href "https://github.com/ChillCube/State" _blank
     click SteamLobbyList href "https://github.com/ChillCube/SteamLobbyList" _blank
     click TopDownMovement href "https://github.com/ChillCube/TopDownMovement" _blank
 ```
 
-**Standalone addons:** [BurneableObject](https://github.com/ChillCube/BurneableObject) · [CurrencyGodot](https://github.com/ChillCube/CurrencyGodot) · [Deck of Nodes](https://github.com/ChillCube/Deck_of_Nodes) · [HitflashAnimation](https://github.com/ChillCube/Godot_HitflashAnimation) · [LevelUp-Stats-and-EXP-system](https://github.com/ChillCube/Godot_LevelUp-Stats-and-EXP-system) · [PlatformerCharacterController](https://github.com/ChillCube/Godot_PlatformerCharacterController) · [StatusBar](https://github.com/ChillCube/Godot_StatusBar) · [VehicleController2D](https://github.com/ChillCube/Godot_VehicleController2D) · [InventoryGodot](https://github.com/ChillCube/InventoryGodot) · [SimpleCraftingRecipees](https://github.com/ChillCube/SimpleCraftingRecipees) · [SpriteAnimations3D](https://github.com/ChillCube/SpriteAnimations3D)
+**Standalone addons:** [BurneableObject](https://github.com/ChillCube/BurneableObject) · [CurrencyGodot](https://github.com/ChillCube/CurrencyGodot) · [Deck of Nodes](https://github.com/ChillCube/Deck_of_Nodes) · [HitflashAnimation](https://github.com/ChillCube/Godot_HitflashAnimation) · [LevelUp-Stats-and-EXP-system](https://github.com/ChillCube/Godot_LevelUp-Stats-and-EXP-system) · [PlatformerCharacterController](https://github.com/ChillCube/Godot_PlatformerCharacterController) · [StatusBar](https://github.com/ChillCube/Godot_StatusBar) · [VehicleController2D](https://github.com/ChillCube/Godot_VehicleController2D) · [SpriteAnimations3D](https://github.com/ChillCube/SpriteAnimations3D)
 <!-- DEPENDENCY-TREE-END -->
