@@ -30,6 +30,7 @@ but if that is not an option for you, you can download them manually. Just make 
 * [ChillSteamPlugin](https://github.com/ChillCube/ChillSteamPlugin) - A custom version of the GodotSteam plugin, made to be comptaible with ChillCube's developer tools and made with specific features for ChillCube
 
 ## 🖥️ UI & Menus
+* [1to9NumberDisplay](https://github.com/ChillCube/1to9NumberDisplay) - A godot class that displays a number from 1 to 9
 * [InventoryGrid2D](https://github.com/ChillCube/InventoryGrid2D) - A 2D inventory grid in godot
 * [SmoothUI](https://github.com/ChillCube/SmoothUI) - A base node for smooth UI nodes used by ChillCube
 * [ItemFrame2D](https://github.com/ChillCube/ItemFrame2D) - A node to visualize items on the screen, useful for inventory UI
