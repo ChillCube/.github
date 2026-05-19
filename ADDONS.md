@@ -120,6 +120,7 @@ but if that is not an option for you, you can download them manually. Just make 
 
 
 
+
 <!-- DEPENDENCY-TREE-START -->
 ## 🌳 Dependency Tree
 
@@ -159,6 +160,7 @@ flowchart LR
     State["State"]
     SteamLobbyList["SteamLobbyList"]
     TopDownMovement["TopDownMovement"]
+    visualCountDown["visualCountDown"]
 
     Card_Hand --> Godot_SmoothMovement
     Card_Hand --> n_2d_node_arranger
@@ -186,6 +188,7 @@ flowchart LR
     n_2dCard --> Godot_SmoothMovement
     n_2D_Node_Arranger --> Godot_SmoothMovement
     NumberDisplay --> n_1to9NumberDisplay
+    NumberDisplay --> n_2d_node_arranger
     PlacementArea2D --> Godot_2D_Mouse_Dragging
     SelectableUI --> SmoothUI
     SelectableUI --> SpriteHelperll
@@ -195,6 +198,7 @@ flowchart LR
     SteamLobbyList --> ChillSteamPlugin
     SteamLobbyList --> Godot_SpriteBasedSmoothMenuButton2D
     SteamLobbyList --> n_2d_node_arranger
+    visualCountDown --> NumberDisplay
 
     class Card_Hand shared
     class ChillSteamPlugin shared
@@ -209,6 +213,7 @@ flowchart LR
     class LabelHelper shared
     class n_1to9NumberDisplay shared
     class n_2d_node_arranger core
+    class NumberDisplay shared
     class SelectableUI core
     class SimpleCraftingRecipees shared
     class SmoothUI core
@@ -248,7 +253,8 @@ flowchart LR
     click State href "https://github.com/ChillCube/State" _blank
     click SteamLobbyList href "https://github.com/ChillCube/SteamLobbyList" _blank
     click TopDownMovement href "https://github.com/ChillCube/TopDownMovement" _blank
+    click visualCountDown href "https://github.com/ChillCube/visualCountDown" _blank
 ```
 
-**Standalone addons:** [BurneableObject](https://github.com/ChillCube/BurneableObject) · [CurrencyGodot](https://github.com/ChillCube/CurrencyGodot) · [Deck of Nodes](https://github.com/ChillCube/Deck_of_Nodes) · [HitflashAnimation](https://github.com/ChillCube/Godot_HitflashAnimation) · [LevelUp-Stats-and-EXP-system](https://github.com/ChillCube/Godot_LevelUp-Stats-and-EXP-system) · [PlatformerCharacterController](https://github.com/ChillCube/Godot_PlatformerCharacterController) · [StatusBar](https://github.com/ChillCube/Godot_StatusBar) · [VehicleController2D](https://github.com/ChillCube/Godot_VehicleController2D) · [SpriteAnimations3D](https://github.com/ChillCube/SpriteAnimations3D) · [visualCountDown](https://github.com/ChillCube/visualCountDown)
+**Standalone addons:** [BurneableObject](https://github.com/ChillCube/BurneableObject) · [CurrencyGodot](https://github.com/ChillCube/CurrencyGodot) · [Deck of Nodes](https://github.com/ChillCube/Deck_of_Nodes) · [HitflashAnimation](https://github.com/ChillCube/Godot_HitflashAnimation) · [LevelUp-Stats-and-EXP-system](https://github.com/ChillCube/Godot_LevelUp-Stats-and-EXP-system) · [PlatformerCharacterController](https://github.com/ChillCube/Godot_PlatformerCharacterController) · [StatusBar](https://github.com/ChillCube/Godot_StatusBar) · [VehicleController2D](https://github.com/ChillCube/Godot_VehicleController2D) · [SpriteAnimations3D](https://github.com/ChillCube/SpriteAnimations3D)
 <!-- DEPENDENCY-TREE-END -->
