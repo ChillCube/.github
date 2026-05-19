@@ -31,6 +31,7 @@ but if that is not an option for you, you can download them manually. Just make 
 
 ## 🖥️ UI & Menus
 * [1to9NumberDisplay](https://github.com/ChillCube/1to9NumberDisplay) - A godot class that displays a number from 1 to 9
+* [NumberDisplay](https://github.com/ChillCube/NumberDisplay) - A way to display numbers based on custom sprites on the screen in Godot
 * [InventoryGrid2D](https://github.com/ChillCube/InventoryGrid2D) - A 2D inventory grid in godot
 * [SmoothUI](https://github.com/ChillCube/SmoothUI) - A base node for smooth UI nodes used by ChillCube
 * [ItemFrame2D](https://github.com/ChillCube/ItemFrame2D) - A node to visualize items on the screen, useful for inventory UI
@@ -109,8 +110,6 @@ but if that is not an option for you, you can download them manually. Just make 
 
 
 
-## o5
-* [NumberDisplay](https://github.com/ChillCube/NumberDisplay) - A way to display numbers based on custom sprites on the screen in Godot
 
 <!-- DEPENDENCY-TREE-START -->
 ## 🌳 Dependency Tree
