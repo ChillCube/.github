@@ -41,7 +41,7 @@ but if that is not an option for you, you can download them manually. Just make 
 * [Godot_SpriteBasedSmoothMenuButton2D](https://github.com/ChillCube/Godot_SpriteBasedSmoothMenuButton2D) - A different way of handling menu buttons, rather than using control nodes. This can be useful for animations among others
 
 ## ⚔️ Combat & Abilities
-* [GodotBullet](https://github.com/ChillCube/GodotBullet) - A simple button node for godot
+* [GodotBullet](https://github.com/ChillCube/GodotBullet) - A flexible bullet Node for Godot
 
 ## 📦 Inventory & Items
 * [ItemFrameGrid2D](https://github.com/ChillCube/ItemFrameGrid2D) - A node for displaying a grid of item frames
