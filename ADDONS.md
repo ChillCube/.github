@@ -108,6 +108,10 @@ but if that is not an option for you, you can download them manually. Just make 
 
 
 
+
+## o5
+* [NumberDisplay](https://github.com/ChillCube/NumberDisplay) - A way to display numbers based on custom sprites on the screen in Godot
+
 <!-- DEPENDENCY-TREE-START -->
 ## 🌳 Dependency Tree
 
@@ -133,9 +137,11 @@ flowchart LR
     ItemFrame2D["ItemFrame2D"]
     ItemFrameGrid2D["ItemFrameGrid2D"]
     LabelHelper["LabelHelper"]
+    n_1to9NumberDisplay["1to9NumberDisplay"]
     n_2dCard["2dCard"]
     n_2d_node_arranger["2d node arranger"]
     n_2D_Node_Arranger["2D Node Arranger"]
+    NumberDisplay["NumberDisplay"]
     PlacementArea2D["PlacementArea2D"]
     SimpleCraftingRecipees["SimpleCraftingRecipees"]
     SmoothUI["SmoothUI"]
@@ -163,11 +169,13 @@ flowchart LR
     ItemFrame2D --> SmoothUI
     ItemFrameGrid2D --> GridArranger
     ItemFrameGrid2D --> ItemFrame2D
+    n_1to9NumberDisplay --> SmoothUI
     n_2dCard --> Card_Hand
     n_2dCard --> Godot_2D_Mouse_Dragging
     n_2dCard --> Godot_Grid
     n_2dCard --> Godot_SmoothMovement
     n_2D_Node_Arranger --> Godot_SmoothMovement
+    NumberDisplay --> n_1to9NumberDisplay
     PlacementArea2D --> Godot_2D_Mouse_Dragging
     SimpleCraftingRecipees --> InventoryGodot
     SmoothUI --> Godot_SmoothMovement
@@ -187,6 +195,7 @@ flowchart LR
     class ItemFrame2D shared
     class ItemFrameGrid2D shared
     class LabelHelper shared
+    class n_1to9NumberDisplay shared
     class n_2d_node_arranger core
     class SimpleCraftingRecipees shared
     class SmoothUI core
@@ -211,9 +220,11 @@ flowchart LR
     click ItemFrame2D href "https://github.com/ChillCube/ItemFrame2D" _blank
     click ItemFrameGrid2D href "https://github.com/ChillCube/ItemFrameGrid2D" _blank
     click LabelHelper href "https://github.com/ChillCube/LabelHelper" _blank
+    click n_1to9NumberDisplay href "https://github.com/ChillCube/1to9NumberDisplay" _blank
     click n_2dCard href "https://github.com/ChillCube/2dCard" _blank
     click n_2d_node_arranger href "https://github.com/ChillCube/2d_node_arranger" _blank
     click n_2D_Node_Arranger href "https://github.com/ChillCube/2d_node_arranger" _blank
+    click NumberDisplay href "https://github.com/ChillCube/NumberDisplay" _blank
     click PlacementArea2D href "https://github.com/ChillCube/PlacementArea2D" _blank
     click SimpleCraftingRecipees href "https://github.com/ChillCube/SimpleCraftingRecipees" _blank
     click SmoothUI href "https://github.com/ChillCube/SmoothUI" _blank
@@ -225,6 +236,3 @@ flowchart LR
 
 **Standalone addons:** [BurneableObject](https://github.com/ChillCube/BurneableObject) · [CurrencyGodot](https://github.com/ChillCube/CurrencyGodot) · [Deck of Nodes](https://github.com/ChillCube/Deck_of_Nodes) · [HitflashAnimation](https://github.com/ChillCube/Godot_HitflashAnimation) · [LevelUp-Stats-and-EXP-system](https://github.com/ChillCube/Godot_LevelUp-Stats-and-EXP-system) · [PlatformerCharacterController](https://github.com/ChillCube/Godot_PlatformerCharacterController) · [StatusBar](https://github.com/ChillCube/Godot_StatusBar) · [VehicleController2D](https://github.com/ChillCube/Godot_VehicleController2D) · [SpriteAnimations3D](https://github.com/ChillCube/SpriteAnimations3D)
 <!-- DEPENDENCY-TREE-END -->
-
-## o5
-* [NumberDisplay](https://github.com/ChillCube/NumberDisplay) - A way to display numbers based on custom sprites on the screen in Godot
