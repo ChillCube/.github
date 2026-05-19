@@ -116,6 +116,7 @@ but if that is not an option for you, you can download them manually. Just make 
 
 
 
+
 <!-- DEPENDENCY-TREE-START -->
 ## 🌳 Dependency Tree
 
@@ -183,6 +184,7 @@ flowchart LR
     NumberDisplay --> n_1to9NumberDisplay
     PlacementArea2D --> Godot_2D_Mouse_Dragging
     SelectableUI --> SmoothUI
+    SelectableUI --> SpriteHelper
     SimpleCraftingRecipees --> InventoryGodot
     SmoothUI --> Godot_SmoothMovement
     SmoothUI --> n_2d_node_arranger
