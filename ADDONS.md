@@ -136,13 +136,12 @@ but if that is not an option for you, you can download them manually. Just make 
 ## 🌳 Dependency Tree
 
 ```mermaid
-flowchart LR
-    classDef core  fill:#4a9eff,stroke:#2471d4,color:#fff,font-weight:bold
+%%{init: {"flowchart": {"curve": "linear"}}}%%
+flowchart BT
+    classDef core fill:#4a9eff,stroke:#2471d4,color:#fff
     classDef shared fill:#a29bfe,stroke:#6c5ce7,color:#fff
-
-
-     --> 
-
-
+    classDef external fill:#fd9644,stroke:#e67e22,color:#fff
 ```
+
+_No inter-addon dependencies detected yet. Run `push-all-addons` from a project with DEPENDENCIES.txt files to populate this graph._
 <!-- DEPENDENCY-TREE-END -->
