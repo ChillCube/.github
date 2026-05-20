@@ -49,6 +49,7 @@ but if that is not an option for you, you can download them manually. Just make 
 * [GodotBullet](https://github.com/ChillCube/GodotBullet) - A flexible bullet Node for Godot
 
 ## 📦 Inventory & Items
+* [InventoryFrame2D](https://github.com/ChillCube/InventoryFrame2D) - A node for displaying and managing a specific inventory slot and its item
 * [ItemFrameGrid2D](https://github.com/ChillCube/ItemFrameGrid2D) - A node for displaying a grid of item frames
 * [CraftBench](https://github.com/ChillCube/CraftBench) - A godot Node for managing live crafting
 * [SimpleCraftingRecipees](https://github.com/ChillCube/SimpleCraftingRecipees) - A simple addon that provides a custom resource to save crafting recipees
