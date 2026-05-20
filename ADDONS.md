@@ -8,6 +8,7 @@ but if that is not an option for you, you can download them manually. Just make 
 ---
 
 ## 🎮 Core Systems
+* [PlaceAbleItem2D](https://github.com/ChillCube/PlaceAbleItem2D) - A node for placeable items, useful for rearranging items in inventory or for crafting systems
 * [PlaceAbleObject2D](https://github.com/ChillCube/PlaceAbleObject2D) - A node that for object placement in Godot
 * [GridArranger](https://github.com/ChillCube/GridArranger) - Arranges and creates nodes in a grid
 * [Godot_SmoothMovement](https://github.com/ChillCube/Godot_SmoothMovement) - A godot addon that enables smooth movement on a node using a global_target_position variable
