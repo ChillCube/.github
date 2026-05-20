@@ -129,6 +129,7 @@ but if that is not an option for you, you can download them manually. Just make 
 
 
 
+
 <!-- DEPENDENCY-TREE-START -->
 ## 🌳 Dependency Tree
 
@@ -159,6 +160,7 @@ flowchart LR
     n_2d_node_arranger["2d node arranger"]
     n_2D_Node_Arranger["2D Node Arranger"]
     NumberDisplay["NumberDisplay"]
+    PlaceAbleItem2D["PlaceAbleItem2D"]
     PlaceAbleObject2D["PlaceAbleObject2D"]
     PlacementArea2D["PlacementArea2D"]
     SelectableUI["SelectableUI"]
@@ -166,6 +168,7 @@ flowchart LR
     SmoothUI["SmoothUI"]
     SpriteHelper["SpriteHelper"]
     SpriteHelperll["SpriteHelperll"]
+    SpritePlacement["SpritePlacement"]
     State["State"]
     SteamLobbyList["SteamLobbyList"]
     TopDownMovement["TopDownMovement"]
@@ -198,6 +201,7 @@ flowchart LR
     n_2D_Node_Arranger --> Godot_SmoothMovement
     NumberDisplay --> n_1to9NumberDisplay
     NumberDisplay --> n_2d_node_arranger
+    PlaceAbleItem2D --> PlaceAbleObject2D
     PlaceAbleObject2D --> Godot_2D_Mouse_Dragging
     PlaceAbleObject2D --> PlacementArea2D
     PlaceAbleObject2D --> SpriteHelper
@@ -207,6 +211,8 @@ flowchart LR
     SimpleCraftingRecipees --> InventoryGodot
     SmoothUI --> Godot_SmoothMovement
     SmoothUI --> n_2d_node_arranger
+    SpritePlacement --> PlacementArea2D
+    SpritePlacement --> SpriteHelper
     SteamLobbyList --> ChillSteamPlugin
     SteamLobbyList --> Godot_SpriteBasedSmoothMenuButton2D
     SteamLobbyList --> n_2d_node_arranger
@@ -226,7 +232,8 @@ flowchart LR
     class n_1to9NumberDisplay shared
     class n_2d_node_arranger core
     class NumberDisplay shared
-    class PlacementArea2D shared
+    class PlaceAbleObject2D shared
+    class PlacementArea2D core
     class SelectableUI core
     class SimpleCraftingRecipees shared
     class SmoothUI core
@@ -257,6 +264,7 @@ flowchart LR
     click n_2d_node_arranger href "https://github.com/ChillCube/2d_node_arranger" _blank
     click n_2D_Node_Arranger href "https://github.com/ChillCube/2d_node_arranger" _blank
     click NumberDisplay href "https://github.com/ChillCube/NumberDisplay" _blank
+    click PlaceAbleItem2D href "https://github.com/ChillCube/PlaceAbleItem2D" _blank
     click PlaceAbleObject2D href "https://github.com/ChillCube/PlaceAbleObject2D" _blank
     click PlacementArea2D href "https://github.com/ChillCube/PlacementArea2D" _blank
     click SelectableUI href "https://github.com/ChillCube/SelectableUI" _blank
@@ -264,6 +272,7 @@ flowchart LR
     click SmoothUI href "https://github.com/ChillCube/SmoothUI" _blank
     click SpriteHelper href "https://github.com/ChillCube/SpriteHelper" _blank
     click SpriteHelperll href "https://github.com/ChillCube/SpriteHelperll" _blank
+    click SpritePlacement href "https://github.com/ChillCube/SpritePlacement" _blank
     click State href "https://github.com/ChillCube/State" _blank
     click SteamLobbyList href "https://github.com/ChillCube/SteamLobbyList" _blank
     click TopDownMovement href "https://github.com/ChillCube/TopDownMovement" _blank
