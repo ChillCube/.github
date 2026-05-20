@@ -125,6 +125,7 @@ but if that is not an option for you, you can download them manually. Just make 
 
 
 
+
 <!-- DEPENDENCY-TREE-START -->
 ## 🌳 Dependency Tree
 
@@ -155,6 +156,7 @@ flowchart LR
     n_2d_node_arranger["2d node arranger"]
     n_2D_Node_Arranger["2D Node Arranger"]
     NumberDisplay["NumberDisplay"]
+    PlaceAbleObject2D["PlaceAbleObject2D"]
     PlacementArea2D["PlacementArea2D"]
     SelectableUI["SelectableUI"]
     SimpleCraftingRecipees["SimpleCraftingRecipees"]
@@ -193,6 +195,9 @@ flowchart LR
     n_2D_Node_Arranger --> Godot_SmoothMovement
     NumberDisplay --> n_1to9NumberDisplay
     NumberDisplay --> n_2d_node_arranger
+    PlaceAbleObject2D --> Godot_2D_Mouse_Dragging
+    PlaceAbleObject2D --> PlacementArea2D
+    PlaceAbleObject2D --> SpriteHelper
     PlacementArea2D --> Godot_2D_Mouse_Dragging
     SelectableUI --> SmoothUI
     SelectableUI --> SpriteHelperll
@@ -218,6 +223,7 @@ flowchart LR
     class n_1to9NumberDisplay shared
     class n_2d_node_arranger core
     class NumberDisplay shared
+    class PlacementArea2D shared
     class SelectableUI core
     class SimpleCraftingRecipees shared
     class SmoothUI core
@@ -248,6 +254,7 @@ flowchart LR
     click n_2d_node_arranger href "https://github.com/ChillCube/2d_node_arranger" _blank
     click n_2D_Node_Arranger href "https://github.com/ChillCube/2d_node_arranger" _blank
     click NumberDisplay href "https://github.com/ChillCube/NumberDisplay" _blank
+    click PlaceAbleObject2D href "https://github.com/ChillCube/PlaceAbleObject2D" _blank
     click PlacementArea2D href "https://github.com/ChillCube/PlacementArea2D" _blank
     click SelectableUI href "https://github.com/ChillCube/SelectableUI" _blank
     click SimpleCraftingRecipees href "https://github.com/ChillCube/SimpleCraftingRecipees" _blank
