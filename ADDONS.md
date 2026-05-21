@@ -8,6 +8,7 @@ but if that is not an option for you, you can download them manually. Just make 
 ---
 
 ## 🎮 Core Systems
+* [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 * [SpritePlacement](https://github.com/ChillCube/SpritePlacement) - A node for placing objects onto a sprite
 * [PlaceAbleItem2D](https://github.com/ChillCube/PlaceAbleItem2D) - A node for placeable items, useful for rearranging items in inventory or for crafting systems
 * [PlaceAbleObject2D](https://github.com/ChillCube/PlaceAbleObject2D) - A node that for object placement in Godot
@@ -21,18 +22,22 @@ but if that is not an option for you, you can download them manually. Just make 
 * [TopDownMovement](https://github.com/ChillCube/TopDownMovement) - A godot addon used to create top down movement. Can be used for both player characters and NPCs
 
 ## 🕹️ Character Controllers
+* [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 * [Godot_TopDown_Character_Controller](https://github.com/ChillCube/Godot_TopDown_Character_Controller) - A character controller for top down movement, such as for an RPG game
 * [Godot_VehicleController2D](https://github.com/ChillCube/Godot_VehicleController2D) - A character controller for vehicles in 2D (top down)
 * [Godot_PlatformerCharacterController](https://github.com/ChillCube/Godot_PlatformerCharacterController) - A simple character controller for platformer games in Godot
 
 ## 🧠 AI & Pathfinding
+* [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 * [HuntingBehaviour](https://github.com/ChillCube/HuntingBehaviour) - an addon to create hunting behaviour on a node
 
 ## 🌐 Networking
+* [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 * [SteamLobbyList](https://github.com/ChillCube/SteamLobbyList) - A node to display a list of lobbies with buttons to select them
 * [ChillSteamPlugin](https://github.com/ChillCube/ChillSteamPlugin) - A custom version of the GodotSteam plugin, made to be comptaible with ChillCube's developer tools and made with specific features for ChillCube
 
 ## 🖥️ UI & Menus
+* [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 * [visualCountDown](https://github.com/ChillCube/visualCountDown) - a node that will display a countdown on screen
 * [SelectableUI](https://github.com/ChillCube/SelectableUI) - an addon that manages selectable UI elements in godot
 * [1to9NumberDisplay](https://github.com/ChillCube/1to9NumberDisplay) - A godot class that displays a number from 1 to 9
@@ -46,9 +51,11 @@ but if that is not an option for you, you can download them manually. Just make 
 * [Godot_SpriteBasedSmoothMenuButton2D](https://github.com/ChillCube/Godot_SpriteBasedSmoothMenuButton2D) - A different way of handling menu buttons, rather than using control nodes. This can be useful for animations among others
 
 ## ⚔️ Combat & Abilities
+* [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 * [GodotBullet](https://github.com/ChillCube/GodotBullet) - A flexible bullet Node for Godot
 
 ## 📦 Inventory & Items
+* [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 * [InventoryManagerGrid](https://github.com/ChillCube/InventoryManagerGrid) - A 2D inventory grid
 * [InventoryFrame2D](https://github.com/ChillCube/InventoryFrame2D) - A node for displaying and managing a specific inventory slot and its item
 * [ItemFrameGrid2D](https://github.com/ChillCube/ItemFrameGrid2D) - A node for displaying a grid of item frames
@@ -58,40 +65,54 @@ but if that is not an option for you, you can download them manually. Just make 
 * [BurneableObject](https://github.com/ChillCube/BurneableObject) - An addon used for burneable objects. This is used for a campfire sim project we are working on
 
 ## 🗺️ World & Level Management
+* [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 ## 🎵 Audio Management
+* [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 ## 📊 Saving & Loading
+* [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 ## ⚙️ Settings & Configuration
+* [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 ## ✨ Polish & Juice
+* [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 * [SpriteAnimations3D](https://github.com/ChillCube/SpriteAnimations3D) - A set of animations that can be used on 3D sprites
 * [Godot_HitflashAnimation](https://github.com/ChillCube/Godot_HitflashAnimation) - A godot addon that can be used to apply hitlfash animations to nodes
 
 ## 🎬 Camera Systems
+* [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 ## 📝 Dialogue & Quests
+* [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 ## 🧩 Procedural Generation
+* [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 ## 🔧 Editor Tools
+* [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 ## 🤝 Multiplayer (Local & Online)
+* [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 ## 🎴 Card Game Systems
+* [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 * [PlacementArea2D](https://github.com/ChillCube/PlacementArea2D) - a node that lets you define areas to place objects (like cards) onto the screen
 * [Deck of Nodes](https://github.com/ChillCube/Deck_of_Nodes) - An addon for managing a list of nodes. Useful for card games
 * [Card Hand](https://github.com/ChillCube/Card_Hand) - a godot addon that lets you create a deck of cards. Used for Card2D node
 * [2dCard](https://github.com/ChillCube/2dCard) - A node that can be used to create 2D cards for card games
 
 ## 💰 Economy & Shops
+* [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 * [CurrencyGodot](https://github.com/ChillCube/CurrencyGodot) - A custom resource meant to help create economic simulations for fantasy currencies
 
 ## 🏆 Progression & Achievements
+* [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 * [Godot_LevelUp-Stats-and-EXP-system](https://github.com/ChillCube/Godot_LevelUp-Stats-and-EXP-system) - A system for level ups, stats and exp for godot
 
 ## 🎨 Visual Effects (Shaders/VFX)
+* [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 
 
@@ -139,6 +160,7 @@ but if that is not an option for you, you can download them manually. Just make 
 
 <!-- DEPENDENCY-TREE-START -->
 ## 🌳 Dependency Tree
+* [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 ```mermaid
 flowchart LR
