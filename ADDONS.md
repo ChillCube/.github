@@ -160,6 +160,7 @@ but if that is not an option for you, you can download them manually. Just make 
 
 
 
+
 <!-- DEPENDENCY-TREE-START -->
 ## 🌳 Dependency Tree
 
@@ -220,12 +221,14 @@ flowchart LR
     heart_popup --> SpriteHelper
     HuntingBehaviour --> State
     HuntingBehaviour --> TopDownMovement
+    InventoryFrame2D --> InventoryGodot
     InventoryFrame2D --> PlaceAbleItem2D
     InventoryFrame2D --> SpritePlacement
     InventoryGodot --> SaveManager
     InventoryGrid2D --> InventoryGodot
     InventoryGrid2D --> ItemFrameGrid2D
     InventoryManagerGrid --> InventoryFrame2D
+    InventoryManagerGrid --> InventoryGodot
     InventoryManagerGrid --> NumberDisplay
     ItemFrame2D --> InventoryGodot
     ItemFrame2D --> SelectableUI
