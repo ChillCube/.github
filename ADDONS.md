@@ -158,9 +158,9 @@ but if that is not an option for you, you can download them manually. Just make 
 
 
 
+
 <!-- DEPENDENCY-TREE-START -->
 ## 🌳 Dependency Tree
-* [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 ```mermaid
 flowchart LR
@@ -321,5 +321,5 @@ flowchart LR
     click visualCountDown href "https://github.com/ChillCube/visualCountDown" _blank
 ```
 
-**Standalone addons:** [BurneableObject](https://github.com/ChillCube/BurneableObject) · [CurrencyGodot](https://github.com/ChillCube/CurrencyGodot) · [Deck of Nodes](https://github.com/ChillCube/Deck_of_Nodes) · [HitflashAnimation](https://github.com/ChillCube/Godot_HitflashAnimation) · [LevelUp-Stats-and-EXP-system](https://github.com/ChillCube/Godot_LevelUp-Stats-and-EXP-system) · [PlatformerCharacterController](https://github.com/ChillCube/Godot_PlatformerCharacterController) · [StatusBar](https://github.com/ChillCube/Godot_StatusBar) · [VehicleController2D](https://github.com/ChillCube/Godot_VehicleController2D) · [SpriteAnimations3D](https://github.com/ChillCube/SpriteAnimations3D)
+**Standalone addons:** [BurneableObject](https://github.com/ChillCube/BurneableObject) · [CurrencyGodot](https://github.com/ChillCube/CurrencyGodot) · [Deck of Nodes](https://github.com/ChillCube/Deck_of_Nodes) · [HitflashAnimation](https://github.com/ChillCube/Godot_HitflashAnimation) · [LevelUp-Stats-and-EXP-system](https://github.com/ChillCube/Godot_LevelUp-Stats-and-EXP-system) · [PlatformerCharacterController](https://github.com/ChillCube/Godot_PlatformerCharacterController) · [StatusBar](https://github.com/ChillCube/Godot_StatusBar) · [VehicleController2D](https://github.com/ChillCube/Godot_VehicleController2D) · [SaveManager](https://github.com/ChillCube/SaveManager) · [SpriteAnimations3D](https://github.com/ChillCube/SpriteAnimations3D)
 <!-- DEPENDENCY-TREE-END -->
