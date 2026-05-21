@@ -8,6 +8,7 @@ but if that is not an option for you, you can download them manually. Just make 
 ---
 
 ## 🎮 Core Systems
+* [AttractedObject2D](https://github.com/ChillCube/AttractedObject2D) - A node in godot that is attracted to a predefined other Node and will move towards it. Useful for games where the player collects coins, experience or items
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 * [SpritePlacement](https://github.com/ChillCube/SpritePlacement) - A node for placing objects onto a sprite
 * [PlaceAbleItem2D](https://github.com/ChillCube/PlaceAbleItem2D) - A node for placeable items, useful for rearranging items in inventory or for crafting systems
