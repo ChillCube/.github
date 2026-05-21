@@ -134,6 +134,7 @@ but if that is not an option for you, you can download them manually. Just make 
 
 
 
+
 <!-- DEPENDENCY-TREE-START -->
 ## 🌳 Dependency Tree
 
@@ -157,6 +158,7 @@ flowchart LR
     InventoryFrame2D["InventoryFrame2D"]
     InventoryGodot["InventoryGodot"]
     InventoryGrid2D["InventoryGrid2D"]
+    InventoryManagerGrid["InventoryManagerGrid"]
     ItemFrame2D["ItemFrame2D"]
     ItemFrameGrid2D["ItemFrameGrid2D"]
     LabelHelper["LabelHelper"]
@@ -196,6 +198,8 @@ flowchart LR
     InventoryFrame2D --> SpritePlacement
     InventoryGrid2D --> InventoryGodot
     InventoryGrid2D --> ItemFrameGrid2D
+    InventoryManagerGrid --> InventoryFrame2D
+    InventoryManagerGrid --> NumberDisplay
     ItemFrame2D --> InventoryGodot
     ItemFrame2D --> SelectableUI
     ItemFrameGrid2D --> GridArranger
@@ -208,7 +212,9 @@ flowchart LR
     n_2D_Node_Arranger --> Godot_SmoothMovement
     NumberDisplay --> n_1to9NumberDisplay
     NumberDisplay --> n_2d_node_arranger
+    PlaceAbleItem2D --> NumberDisplay
     PlaceAbleItem2D --> PlaceAbleObject2D
+    PlaceAbleItem2D --> SpriteHelper
     PlaceAbleObject2D --> Godot_2D_Mouse_Dragging
     PlaceAbleObject2D --> PlacementArea2D
     PlaceAbleObject2D --> SpriteHelper
@@ -232,13 +238,14 @@ flowchart LR
     class Godot_SmoothMovement core
     class Godot_SpriteBasedSmoothMenuButton2D shared
     class GridArranger shared
+    class InventoryFrame2D shared
     class InventoryGodot core
     class ItemFrame2D shared
     class ItemFrameGrid2D shared
     class LabelHelper shared
     class n_1to9NumberDisplay shared
     class n_2d_node_arranger core
-    class NumberDisplay shared
+    class NumberDisplay core
     class PlaceAbleItem2D shared
     class PlaceAbleObject2D shared
     class PlacementArea2D core
@@ -266,6 +273,7 @@ flowchart LR
     click InventoryFrame2D href "https://github.com/ChillCube/InventoryFrame2D" _blank
     click InventoryGodot href "https://github.com/ChillCube/InventoryGodot" _blank
     click InventoryGrid2D href "https://github.com/ChillCube/InventoryGrid2D" _blank
+    click InventoryManagerGrid href "https://github.com/ChillCube/InventoryManagerGrid" _blank
     click ItemFrame2D href "https://github.com/ChillCube/ItemFrame2D" _blank
     click ItemFrameGrid2D href "https://github.com/ChillCube/ItemFrameGrid2D" _blank
     click LabelHelper href "https://github.com/ChillCube/LabelHelper" _blank
