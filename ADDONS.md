@@ -159,6 +159,7 @@ but if that is not an option for you, you can download them manually. Just make 
 
 
 
+
 <!-- DEPENDENCY-TREE-START -->
 ## 🌳 Dependency Tree
 
@@ -194,6 +195,7 @@ flowchart LR
     PlaceAbleItem2D["PlaceAbleItem2D"]
     PlaceAbleObject2D["PlaceAbleObject2D"]
     PlacementArea2D["PlacementArea2D"]
+    SaveManager["SaveManager"]
     SelectableUI["SelectableUI"]
     SimpleCraftingRecipees["SimpleCraftingRecipees"]
     SmoothUI["SmoothUI"]
@@ -220,6 +222,7 @@ flowchart LR
     HuntingBehaviour --> TopDownMovement
     InventoryFrame2D --> PlaceAbleItem2D
     InventoryFrame2D --> SpritePlacement
+    InventoryGodot --> SaveManager
     InventoryGrid2D --> InventoryGodot
     InventoryGrid2D --> ItemFrameGrid2D
     InventoryManagerGrid --> InventoryFrame2D
@@ -273,6 +276,7 @@ flowchart LR
     class PlaceAbleItem2D shared
     class PlaceAbleObject2D shared
     class PlacementArea2D core
+    class SaveManager shared
     class SelectableUI core
     class SimpleCraftingRecipees shared
     class SmoothUI core
@@ -309,6 +313,7 @@ flowchart LR
     click PlaceAbleItem2D href "https://github.com/ChillCube/PlaceAbleItem2D" _blank
     click PlaceAbleObject2D href "https://github.com/ChillCube/PlaceAbleObject2D" _blank
     click PlacementArea2D href "https://github.com/ChillCube/PlacementArea2D" _blank
+    click SaveManager href "https://github.com/ChillCube/SaveManager" _blank
     click SelectableUI href "https://github.com/ChillCube/SelectableUI" _blank
     click SimpleCraftingRecipees href "https://github.com/ChillCube/SimpleCraftingRecipees" _blank
     click SmoothUI href "https://github.com/ChillCube/SmoothUI" _blank
@@ -321,5 +326,5 @@ flowchart LR
     click visualCountDown href "https://github.com/ChillCube/visualCountDown" _blank
 ```
 
-**Standalone addons:** [BurneableObject](https://github.com/ChillCube/BurneableObject) · [CurrencyGodot](https://github.com/ChillCube/CurrencyGodot) · [Deck of Nodes](https://github.com/ChillCube/Deck_of_Nodes) · [HitflashAnimation](https://github.com/ChillCube/Godot_HitflashAnimation) · [LevelUp-Stats-and-EXP-system](https://github.com/ChillCube/Godot_LevelUp-Stats-and-EXP-system) · [PlatformerCharacterController](https://github.com/ChillCube/Godot_PlatformerCharacterController) · [StatusBar](https://github.com/ChillCube/Godot_StatusBar) · [VehicleController2D](https://github.com/ChillCube/Godot_VehicleController2D) · [SaveManager](https://github.com/ChillCube/SaveManager) · [SpriteAnimations3D](https://github.com/ChillCube/SpriteAnimations3D)
+**Standalone addons:** [BurneableObject](https://github.com/ChillCube/BurneableObject) · [CurrencyGodot](https://github.com/ChillCube/CurrencyGodot) · [Deck of Nodes](https://github.com/ChillCube/Deck_of_Nodes) · [HitflashAnimation](https://github.com/ChillCube/Godot_HitflashAnimation) · [LevelUp-Stats-and-EXP-system](https://github.com/ChillCube/Godot_LevelUp-Stats-and-EXP-system) · [PlatformerCharacterController](https://github.com/ChillCube/Godot_PlatformerCharacterController) · [StatusBar](https://github.com/ChillCube/Godot_StatusBar) · [VehicleController2D](https://github.com/ChillCube/Godot_VehicleController2D) · [SpriteAnimations3D](https://github.com/ChillCube/SpriteAnimations3D)
 <!-- DEPENDENCY-TREE-END -->
