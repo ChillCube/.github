@@ -172,44 +172,35 @@ but if that is not an option for you, you can download them manually. Just make 
 * [RotateToMouse](https://github.com/ChillCube/RotateToMouse) - A node that rotates its parent towards the mouse. Useful for 2D shooters
 * [Rotator2D](https://github.com/ChillCube/Rotator2D) - A node that rotates its parent
 * [ChillCube Tools](https://github.com/ChillCube/ChillCube-Developer-Tools) - Manage ChillCube addons directly from the Godot editor — no terminal required.
+
 <!-- DEPENDENCY-TREE-START -->
 ## 🌳 Dependency Tree
 
 ```mermaid
-%%{init: {"flowchart": {"curve": "linear"}}}%%
-flowchart BT
-    classDef core  fill:#4a9eff,stroke:#2471d4,color:#fff
+flowchart LR
+    classDef core  fill:#4a9eff,stroke:#2471d4,color:#fff,font-weight:bold
     classDef shared fill:#a29bfe,stroke:#6c5ce7,color:#fff
-    classDef external fill:#fd9644,stroke:#e67e22,color:#fff
 
-    subgraph Layer_0["🧱 Layer 0 — Foundation"]
-        godot_smoothmovement["SmoothMovement"]
-        rotator2d["Rotator2D"]
-    end
-    subgraph Layer_1["Layer 1"]
-        followingcamera2d["FollowingCamera2D"]
-        rotatetomouse["RotateToMouse"]
-    end
-    subgraph Layer_2["Layer 2"]
-        cameralockerarea2d["CameraLockerArea2D"]
-    end
+    CameraLockerArea2D["CameraLockerArea2D"]
+    FollowingCamera2D["FollowingCamera2D"]
+    Godot_SmoothMovement["SmoothMovement"]
+    RotateToMouse["RotateToMouse"]
+    Rotator2D["Rotator2D"]
 
-    godot_smoothmovement --> followingcamera2d
-    followingcamera2d --> cameralockerarea2d
-    rotator2d --> rotatetomouse
+    CameraLockerArea2D --> FollowingCamera2D
+    FollowingCamera2D --> Godot_SmoothMovement
+    RotateToMouse --> Rotator2D
 
-    class followingcamera2d shared
-    class godot_smoothmovement shared
-    class rotator2d shared
+    class FollowingCamera2D shared
+    class Godot_SmoothMovement shared
+    class Rotator2D shared
 
-    click cameralockerarea2d href "https://github.com/ChillCube/CameraLockerArea2D" _blank
-    click followingcamera2d href "https://github.com/ChillCube/FollowingCamera2D" _blank
-    click godot_smoothmovement href "https://github.com/ChillCube/Godot_SmoothMovement" _blank
-    click rotatetomouse href "https://github.com/ChillCube/RotateToMouse" _blank
-    click rotator2d href "https://github.com/ChillCube/Rotator2D" _blank
+    click CameraLockerArea2D href "https://github.com/ChillCube/CameraLockerArea2D" _blank
+    click FollowingCamera2D href "https://github.com/ChillCube/FollowingCamera2D" _blank
+    click Godot_SmoothMovement href "https://github.com/ChillCube/Godot_SmoothMovement" _blank
+    click RotateToMouse href "https://github.com/ChillCube/RotateToMouse" _blank
+    click Rotator2D href "https://github.com/ChillCube/Rotator2D" _blank
 ```
 
-**Standalone addons:** [ChillCube Tools](https://github.com/ChillCube/ChillCube-Developer-Tools) · [SpriteHelper](https://github.com/ChillCube/SpriteHelper) · [AttractedObject2D](https://github.com/ChillCube/AttractedObject2D) · [TopDownMovement](https://github.com/ChillCube/TopDownMovement) · [TopDown Character Controller](https://github.com/ChillCube/Godot_TopDown_Character_Controller) · [GodotBullet](https://github.com/ChillCube/GodotBullet)
-
-**🏆 Progress Score: 230 pts** — _+10 per .gd file · +50 per module that depends on you · +20 per dependency layer_
+**Standalone addons:** [AttractedObject2D](https://github.com/ChillCube/AttractedObject2D) · [ChillCube Tools](https://github.com/ChillCube/ChillCube-Developer-Tools) · [GodotBullet](https://github.com/ChillCube/GodotBullet) · [TopDown Character Controller](https://github.com/ChillCube/Godot_TopDown_Character_Controller) · [SpriteHelper](https://github.com/ChillCube/SpriteHelper) · [TopDownMovement](https://github.com/ChillCube/TopDownMovement)
 <!-- DEPENDENCY-TREE-END -->
