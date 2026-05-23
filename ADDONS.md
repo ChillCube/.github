@@ -183,7 +183,7 @@ flowchart BT
 
 ```
 
-**Standalone addons:** [ChillCube Tools](https://github.com/ChillCube/ChillCube-Developer-Tools) · [AttractedObject2D](https://github.com/ChillCube/AttractedObject2D)
+**Standalone addons:** [ChillCube Tools](https://github.com/ChillCube/ChillCube-Developer-Tools) · [Rotator2D](error: No such remote 'origin') · [AttractedObject2D](https://github.com/ChillCube/AttractedObject2D)
 
 **🏆 Progress Score: 0 pts** — _+10 per .gd file · +50 per module that depends on you · +20 per dependency layer_
 <!-- DEPENDENCY-TREE-END -->
