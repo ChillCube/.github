@@ -170,21 +170,32 @@ but if that is not an option for you, you can download them manually. Just make 
 * [RotateToMouse](https://github.com/ChillCube/RotateToMouse) - A node that rotates its parent towards the mouse. Useful for 2D shooters
 * [Rotator2D](https://github.com/ChillCube/Rotator2D) - A node that rotates its parent
 * [ChillCube Tools](https://github.com/ChillCube/ChillCube-Developer-Tools) - Manage ChillCube addons directly from the Godot editor — no terminal required.
-
-
 <!-- DEPENDENCY-TREE-START -->
 ## 🌳 Dependency Tree
 
 ```mermaid
-flowchart LR
-    classDef core  fill:#4a9eff,stroke:#2471d4,color:#fff,font-weight:bold
+%%{init: {"flowchart": {"curve": "linear"}}}%%
+flowchart BT
+    classDef core  fill:#4a9eff,stroke:#2471d4,color:#fff
     classDef shared fill:#a29bfe,stroke:#6c5ce7,color:#fff
+    classDef external fill:#fd9644,stroke:#e67e22,color:#fff
 
+    subgraph Layer_0["🧱 Layer 0 — Foundation"]
+        rotator2d["Rotator2D"]
+    end
+    subgraph Layer_1["Layer 1"]
+        rotatetomouse["RotateToMouse"]
+    end
 
-     --> 
+    rotator2d --> rotatetomouse
 
+    class rotator2d shared
 
+    click rotatetomouse href "https://github.com/ChillCube/RotateToMouse" _blank
+    click rotator2d href "https://github.com/ChillCube/Rotator2D" _blank
 ```
 
-**Standalone addons:** [AttractedObject2D](https://github.com/ChillCube/AttractedObject2D) · [ChillCube Tools](https://github.com/ChillCube/ChillCube-Developer-Tools) · RotateToMouse · Rotator2D
+**Standalone addons:** [ChillCube Tools](https://github.com/ChillCube/ChillCube-Developer-Tools) · [AttractedObject2D](https://github.com/ChillCube/AttractedObject2D)
+
+**🏆 Progress Score: 70 pts** — _+10 per .gd file · +50 per module that depends on you · +20 per dependency layer_
 <!-- DEPENDENCY-TREE-END -->
