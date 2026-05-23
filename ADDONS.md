@@ -167,6 +167,7 @@ but if that is not an option for you, you can download them manually. Just make 
 
 
 ## Uncategorized
+* [RotateToMouse](https://github.com/ChillCube/RotateToMouse) - A node that rotates its parent towards the mouse. Useful for 2D shooters
 * [Rotator2D](https://github.com/ChillCube/Rotator2D) - A node that rotates its parent
 * [ChillCube Tools](https://github.com/ChillCube/ChillCube-Developer-Tools) - Manage ChillCube addons directly from the Godot editor — no terminal required.
 
