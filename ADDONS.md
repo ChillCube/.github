@@ -190,13 +190,19 @@ flowchart BT
         followingcamera2d["FollowingCamera2D"]
         rotatetomouse["RotateToMouse"]
     end
+    subgraph Layer_2["Layer 2"]
+        cameralockerarea2d["CameraLockerArea2D"]
+    end
 
     godot_smoothmovement --> followingcamera2d
+    followingcamera2d --> cameralockerarea2d
     rotator2d --> rotatetomouse
 
+    class followingcamera2d shared
     class godot_smoothmovement shared
     class rotator2d shared
 
+    click cameralockerarea2d href "https://github.com/ChillCube/CameraLockerArea2D" _blank
     click followingcamera2d href "https://github.com/ChillCube/FollowingCamera2D" _blank
     click godot_smoothmovement href "https://github.com/ChillCube/Godot_SmoothMovement" _blank
     click rotatetomouse href "https://github.com/ChillCube/RotateToMouse" _blank
@@ -205,5 +211,5 @@ flowchart BT
 
 **Standalone addons:** [ChillCube Tools](https://github.com/ChillCube/ChillCube-Developer-Tools) · [SpriteHelper](https://github.com/ChillCube/SpriteHelper) · [AttractedObject2D](https://github.com/ChillCube/AttractedObject2D) · [TopDownMovement](https://github.com/ChillCube/TopDownMovement) · [TopDown Character Controller](https://github.com/ChillCube/Godot_TopDown_Character_Controller) · [GodotBullet](https://github.com/ChillCube/GodotBullet)
 
-**🏆 Progress Score: 140 pts** — _+10 per .gd file · +50 per module that depends on you · +20 per dependency layer_
+**🏆 Progress Score: 230 pts** — _+10 per .gd file · +50 per module that depends on you · +20 per dependency layer_
 <!-- DEPENDENCY-TREE-END -->
