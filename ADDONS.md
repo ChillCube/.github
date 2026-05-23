@@ -83,6 +83,7 @@ but if that is not an option for you, you can download them manually. Just make 
 * [Godot_HitflashAnimation](https://github.com/ChillCube/Godot_HitflashAnimation) - A godot addon that can be used to apply hitlfash animations to nodes
 
 ## 🎬 Camera Systems
+* [FollowingCamera2D](https://github.com/ChillCube/FollowingCamera2D) - A camera node that lets you simply pick a node and have the camera track the position of that node
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 ## 📝 Dialogue & Quests
