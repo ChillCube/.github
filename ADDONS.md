@@ -168,6 +168,7 @@ but if that is not an option for you, you can download them manually. Just make 
 
 
 ## Uncategorized
+* [CameraLockerArea2D](https://github.com/ChillCube/CameraLockerArea2D) - An Area2D that works with FollowerCamera2D. If the node the camera is following enters this area, the camera will instead lock onto this area, until the node leaves the area.
 * [RotateToMouse](https://github.com/ChillCube/RotateToMouse) - A node that rotates its parent towards the mouse. Useful for 2D shooters
 * [Rotator2D](https://github.com/ChillCube/Rotator2D) - A node that rotates its parent
 * [ChillCube Tools](https://github.com/ChillCube/ChillCube-Developer-Tools) - Manage ChillCube addons directly from the Godot editor — no terminal required.
