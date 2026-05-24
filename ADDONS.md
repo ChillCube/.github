@@ -173,35 +173,46 @@ but if that is not an option for you, you can download them manually. Just make 
 * [RotateToMouse](https://github.com/ChillCube/RotateToMouse) - A node that rotates its parent towards the mouse. Useful for 2D shooters
 * [Rotator2D](https://github.com/ChillCube/Rotator2D) - A node that rotates its parent
 * [ChillCube Tools](https://github.com/ChillCube/ChillCube-Developer-Tools) - Manage ChillCube addons directly from the Godot editor — no terminal required.
-
 <!-- DEPENDENCY-TREE-START -->
 ## 🌳 Dependency Tree
 
 ```mermaid
-flowchart LR
-    classDef core  fill:#4a9eff,stroke:#2471d4,color:#fff,font-weight:bold
+%%{init: {"flowchart": {"curve": "linear"}}}%%
+flowchart BT
+    classDef core  fill:#4a9eff,stroke:#2471d4,color:#fff
     classDef shared fill:#a29bfe,stroke:#6c5ce7,color:#fff
+    classDef external fill:#fd9644,stroke:#e67e22,color:#fff
 
-    CameraLockerArea2D["CameraLockerArea2D"]
-    FollowingCamera2D["FollowingCamera2D"]
-    Godot_SmoothMovement["SmoothMovement"]
-    RotateToMouse["RotateToMouse"]
-    Rotator2D["Rotator2D"]
+    subgraph Layer_0["🧱 Layer 0 — Foundation"]
+        rotator2d["Rotator2D"]
+        spritehelper["SpriteHelper"]
+    end
+    subgraph Layer_1["Layer 1"]
+        godotbullet["GodotBullet"]
+        rotatetomouse["RotateToMouse"]
+    end
+    subgraph Layer_2["Layer 2"]
+        gun2d["Gun2D"]
+    end
 
-    CameraLockerArea2D --> FollowingCamera2D
-    FollowingCamera2D --> Godot_SmoothMovement
-    RotateToMouse --> Rotator2D
+    godotbullet --> gun2d
+    rotatetomouse --> gun2d
+    rotator2d --> rotatetomouse
+    spritehelper --> godotbullet
 
-    class FollowingCamera2D shared
-    class Godot_SmoothMovement shared
-    class Rotator2D shared
+    class godotbullet shared
+    class rotatetomouse shared
+    class rotator2d shared
+    class spritehelper shared
 
-    click CameraLockerArea2D href "https://github.com/ChillCube/CameraLockerArea2D" _blank
-    click FollowingCamera2D href "https://github.com/ChillCube/FollowingCamera2D" _blank
-    click Godot_SmoothMovement href "https://github.com/ChillCube/Godot_SmoothMovement" _blank
-    click RotateToMouse href "https://github.com/ChillCube/RotateToMouse" _blank
-    click Rotator2D href "https://github.com/ChillCube/Rotator2D" _blank
+    click godotbullet href "https://github.com/ChillCube/GodotBullet" _blank
+    click gun2d href "https://github.com/ChillCube/Gun2D" _blank
+    click rotatetomouse href "https://github.com/ChillCube/RotateToMouse" _blank
+    click rotator2d href "https://github.com/ChillCube/Rotator2D" _blank
+    click spritehelper href "https://github.com/ChillCube/SpriteHelper" _blank
 ```
 
-**Standalone addons:** [AttractedObject2D](https://github.com/ChillCube/AttractedObject2D) · [ChillCube Tools](https://github.com/ChillCube/ChillCube-Developer-Tools) · [GodotBullet](https://github.com/ChillCube/GodotBullet) · [TopDown Character Controller](https://github.com/ChillCube/Godot_TopDown_Character_Controller) · [SpriteHelper](https://github.com/ChillCube/SpriteHelper) · [TopDownMovement](https://github.com/ChillCube/TopDownMovement)
+**Standalone addons:** [ChillCube Tools](https://github.com/ChillCube/ChillCube-Developer-Tools)
+
+**🏆 Progress Score: 280 pts** — _+10 per .gd file · +50 per module that depends on you · +20 per dependency layer_
 <!-- DEPENDENCY-TREE-END -->
