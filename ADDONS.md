@@ -188,6 +188,7 @@ flowchart BT
 
     subgraph Layer_0["🧱 Layer 0 — Foundation"]
         godot_hitflashanimation["HitflashAnimation"]
+        godot_levelup_stats_and_exp_system["LevelUp-Stats-and-EXP-system"]
         rotator2d["Rotator2D"]
         spritehelper["SpriteHelper"]
         topdownmovement["TopDownMovement"]
@@ -200,8 +201,11 @@ flowchart BT
     end
     subgraph Layer_2["Layer 2"]
         gun2d["Gun2D"]
+        healthanddamagearea["HealthAndDamageArea"]
     end
 
+    godot_levelup_stats_and_exp_system --> healthanddamagearea
+    damagereceiver --> healthanddamagearea
     godotbullet --> gun2d
     rotatetomouse --> gun2d
     godot_hitflashanimation --> damagereceiver
@@ -209,7 +213,9 @@ flowchart BT
     topdownmovement --> godot_topdown_character_controller
     spritehelper --> godotbullet
 
+    class damagereceiver shared
     class godot_hitflashanimation shared
+    class godot_levelup_stats_and_exp_system shared
     class godotbullet shared
     class rotatetomouse shared
     class rotator2d shared
@@ -218,16 +224,18 @@ flowchart BT
 
     click damagereceiver href "https://github.com/ChillCube/DamageReceiver" _blank
     click godot_hitflashanimation href "https://github.com/ChillCube/Godot_HitflashAnimation" _blank
+    click godot_levelup_stats_and_exp_system href "https://github.com/ChillCube/Godot_LevelUp-Stats-and-EXP-system" _blank
     click godot_topdown_character_controller href "https://github.com/ChillCube/Godot_TopDown_Character_Controller" _blank
     click godotbullet href "https://github.com/ChillCube/GodotBullet" _blank
     click gun2d href "https://github.com/ChillCube/Gun2D" _blank
+    click healthanddamagearea href "https://github.com/ChillCube/HealthAndDamageArea" _blank
     click rotatetomouse href "https://github.com/ChillCube/RotateToMouse" _blank
     click rotator2d href "https://github.com/ChillCube/Rotator2D" _blank
     click spritehelper href "https://github.com/ChillCube/SpriteHelper" _blank
     click topdownmovement href "https://github.com/ChillCube/TopDownMovement" _blank
 ```
 
-**Standalone addons:** [ChillCube Tools](https://github.com/ChillCube/ChillCube-Developer-Tools)
+**Standalone addons:** [ChillCube Tools](https://github.com/ChillCube/ChillCube-Developer-Tools) · [DamageFormula](https://github.com/ChillCube/DamageFormula)
 
-**🏆 Progress Score: 420 pts** — _+10 per .gd file · +50 per module that depends on you · +20 per dependency layer_
+**🏆 Progress Score: 560 pts** — _+10 per .gd file · +50 per module that depends on you · +20 per dependency layer_
 <!-- DEPENDENCY-TREE-END -->
