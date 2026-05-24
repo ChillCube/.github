@@ -53,6 +53,7 @@ but if that is not an option for you, you can download them manually. Just make 
 * [Godot_SpriteBasedSmoothMenuButton2D](https://github.com/ChillCube/Godot_SpriteBasedSmoothMenuButton2D) - A different way of handling menu buttons, rather than using control nodes. This can be useful for animations among others
 
 ## ⚔️ Combat & Abilities
+* [HealthAndDamageArea](https://github.com/ChillCube/HealthAndDamageArea) - A node that can be added to an enemy or npc that will manage damage and health.
 * [DamageReceiver](https://github.com/ChillCube/DamageReceiver) - A node that you can add as a child of something that can receive damage. It will check for any damage received and send a signal to communicate the damage.
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 * [GodotBullet](https://github.com/ChillCube/GodotBullet) - A flexible bullet Node for Godot
