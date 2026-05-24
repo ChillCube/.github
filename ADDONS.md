@@ -198,12 +198,13 @@ flowchart BT
         healthanddamagearea["HealthAndDamageArea"]
     end
 
+    damageformula --> healthanddamagearea
     godot_levelup_stats_and_exp_system --> healthanddamagearea
     damagereceiver --> healthanddamagearea
     damageformula --> damagereceiver
     godot_hitflashanimation --> damagereceiver
 
-    class damageformula shared
+    class damageformula core
     class damagereceiver shared
     class godot_hitflashanimation shared
     class godot_levelup_stats_and_exp_system shared
@@ -217,5 +218,5 @@ flowchart BT
 
 **Standalone addons:** [ChillCube Tools](https://github.com/ChillCube/ChillCube-Developer-Tools)
 
-**🏆 Progress Score: 260 pts** — _+10 per .gd file · +50 per module that depends on you · +20 per dependency layer_
+**🏆 Progress Score: 310 pts** — _+10 per .gd file · +50 per module that depends on you · +20 per dependency layer_
 <!-- DEPENDENCY-TREE-END -->
