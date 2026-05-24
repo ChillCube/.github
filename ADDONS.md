@@ -185,11 +185,13 @@ flowchart BT
     classDef external fill:#fd9644,stroke:#e67e22,color:#fff
 
     subgraph Layer_0["🧱 Layer 0 — Foundation"]
+        godot_hitflashanimation["HitflashAnimation"]
         rotator2d["Rotator2D"]
         spritehelper["SpriteHelper"]
         topdownmovement["TopDownMovement"]
     end
     subgraph Layer_1["Layer 1"]
+        damagereceiver["DamageReceiver"]
         godot_topdown_character_controller["TopDown Character Controller"]
         godotbullet["GodotBullet"]
         rotatetomouse["RotateToMouse"]
@@ -200,16 +202,20 @@ flowchart BT
 
     godotbullet --> gun2d
     rotatetomouse --> gun2d
+    godot_hitflashanimation --> damagereceiver
     rotator2d --> rotatetomouse
     topdownmovement --> godot_topdown_character_controller
     spritehelper --> godotbullet
 
+    class godot_hitflashanimation shared
     class godotbullet shared
     class rotatetomouse shared
     class rotator2d shared
     class spritehelper shared
     class topdownmovement shared
 
+    click damagereceiver href "https://github.com/ChillCube/DamageReceiver" _blank
+    click godot_hitflashanimation href "https://github.com/ChillCube/Godot_HitflashAnimation" _blank
     click godot_topdown_character_controller href "https://github.com/ChillCube/Godot_TopDown_Character_Controller" _blank
     click godotbullet href "https://github.com/ChillCube/GodotBullet" _blank
     click gun2d href "https://github.com/ChillCube/Gun2D" _blank
@@ -221,5 +227,5 @@ flowchart BT
 
 **Standalone addons:** [ChillCube Tools](https://github.com/ChillCube/ChillCube-Developer-Tools)
 
-**🏆 Progress Score: 350 pts** — _+10 per .gd file · +50 per module that depends on you · +20 per dependency layer_
+**🏆 Progress Score: 420 pts** — _+10 per .gd file · +50 per module that depends on you · +20 per dependency layer_
 <!-- DEPENDENCY-TREE-END -->
