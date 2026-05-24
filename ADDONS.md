@@ -187,36 +187,218 @@ flowchart BT
     classDef external fill:#fd9644,stroke:#e67e22,color:#fff
 
     subgraph Layer_0["🧱 Layer 0 — Foundation"]
+        chillsteamplugin["ChillSteamPlugin"]
         damageformula["DamageFormula"]
+        godot_grid["Grid"]
         godot_hitflashanimation["HitflashAnimation"]
         godot_levelup_stats_and_exp_system["LevelUp-Stats-and-EXP-system"]
+        godot_smoothmovement["SmoothMovement"]
+        labelhelper["LabelHelper"]
+        rotator2d["Rotator2D"]
+        savemanager["SaveManager"]
+        spritehelper["SpriteHelper"]
+        spritehelperll["SpriteHelperll"]
+        state["State"]
+        topdownmovement["TopDownMovement"]
     end
     subgraph Layer_1["Layer 1"]
+        2d_node_arranger["2D Node Arranger"]
         damagereceiver["DamageReceiver"]
+        followingcamera2d["FollowingCamera2D"]
+        godot_2d_mouse_dragging["2D Mouse Dragging"]
+        godot_topdown_character_controller["TopDown Character Controller"]
+        godotbullet["GodotBullet"]
+        heart_popup["heart popup"]
+        huntingbehaviour["HuntingBehaviour"]
+        inventorygodot["InventoryGodot"]
+        rotatetomouse["RotateToMouse"]
     end
     subgraph Layer_2["Layer 2"]
+        cameralockerarea2d["CameraLockerArea2D"]
+        card_hand["Card Hand"]
+        gridarranger["GridArranger"]
+        gun2d["Gun2D"]
         healthanddamagearea["HealthAndDamageArea"]
+        placementarea2d["PlacementArea2D"]
+        simplecraftingrecipees["SimpleCraftingRecipees"]
+        smoothui["SmoothUI"]
+    end
+    subgraph Layer_3["Layer 3"]
+        1to9numberdisplay["1to9NumberDisplay"]
+        2dcard["2dCard"]
+        craftbench["CraftBench"]
+        placeableobject2d["PlaceAbleObject2D"]
+        selectableui["SelectableUI"]
+        spriteplacement["SpritePlacement"]
+    end
+    subgraph Layer_4["Layer 4"]
+        godot_spritebasedsmoothmenubutton2d["SpriteBasedSmoothMenuButton2D"]
+        itemframe2d["ItemFrame2D"]
+        numberdisplay["NumberDisplay"]
+    end
+    subgraph Layer_5["Layer 5"]
+        itemframegrid2d["ItemFrameGrid2D"]
+        placeableitem2d["PlaceAbleItem2D"]
+        steamlobbylist["SteamLobbyList"]
+        visualcountdown["visualCountDown"]
+    end
+    subgraph Layer_6["Layer 6"]
+        inventoryframe2d["InventoryFrame2D"]
+        inventorygrid2d["InventoryGrid2D"]
+    end
+    subgraph Layer_7["Layer 7"]
+        inventorymanagergrid["InventoryManagerGrid"]
     end
 
+    godotbullet --> gun2d
+    rotatetomouse --> gun2d
+    placementarea2d --> spriteplacement
+    spritehelper --> spriteplacement
+    placeableobject2d --> placeableitem2d
+    numberdisplay --> placeableitem2d
+    spritehelper --> placeableitem2d
+    spritehelper --> placeableobject2d
+    godot_2d_mouse_dragging --> placeableobject2d
+    placementarea2d --> placeableobject2d
+    2d_node_arranger --> gridarranger
+    godot_smoothmovement --> godot_2d_mouse_dragging
+    topdownmovement --> godot_topdown_character_controller
+    state --> huntingbehaviour
+    topdownmovement --> huntingbehaviour
+    chillsteamplugin --> steamlobbylist
+    2d_node_arranger --> steamlobbylist
+    godot_spritebasedsmoothmenubutton2d --> steamlobbylist
+    numberdisplay --> visualcountdown
+    smoothui --> selectableui
+    spritehelperll --> selectableui
+    smoothui --> 1to9numberdisplay
+    1to9numberdisplay --> numberdisplay
+    2d_node_arranger --> numberdisplay
+    itemframegrid2d --> inventorygrid2d
+    inventorygodot --> inventorygrid2d
+    godot_smoothmovement --> smoothui
+    2d_node_arranger --> smoothui
+    inventorygodot --> itemframe2d
+    selectableui --> itemframe2d
+    godot_smoothmovement --> heart_popup
+    labelhelper --> heart_popup
+    spritehelper --> heart_popup
+    godot_smoothmovement --> 2d_node_arranger
+    selectableui --> godot_spritebasedsmoothmenubutton2d
     damageformula --> healthanddamagearea
     godot_levelup_stats_and_exp_system --> healthanddamagearea
     damagereceiver --> healthanddamagearea
     damageformula --> damagereceiver
     godot_hitflashanimation --> damagereceiver
+    spritehelper --> godotbullet
+    inventoryframe2d --> inventorymanagergrid
+    numberdisplay --> inventorymanagergrid
+    inventorygodot --> inventorymanagergrid
+    spriteplacement --> inventoryframe2d
+    placeableitem2d --> inventoryframe2d
+    inventorygodot --> inventoryframe2d
+    itemframe2d --> itemframegrid2d
+    gridarranger --> itemframegrid2d
+    simplecraftingrecipees --> craftbench
+    inventorygodot --> simplecraftingrecipees
+    savemanager --> inventorygodot
+    godot_smoothmovement --> followingcamera2d
+    godot_2d_mouse_dragging --> placementarea2d
+    2d_node_arranger --> card_hand
+    godot_smoothmovement --> card_hand
+    godot_smoothmovement --> 2dcard
+    godot_2d_mouse_dragging --> 2dcard
+    card_hand --> 2dcard
+    godot_grid --> 2dcard
+    followingcamera2d --> cameralockerarea2d
+    rotator2d --> rotatetomouse
 
+    class 1to9numberdisplay shared
+    class 2d_node_arranger core
+    class card_hand shared
+    class chillsteamplugin shared
     class damageformula core
     class damagereceiver shared
+    class followingcamera2d shared
+    class godot_2d_mouse_dragging core
+    class godot_grid shared
     class godot_hitflashanimation shared
     class godot_levelup_stats_and_exp_system shared
+    class godot_smoothmovement core
+    class godot_spritebasedsmoothmenubutton2d shared
+    class godotbullet shared
+    class gridarranger shared
+    class inventoryframe2d shared
+    class inventorygodot core
+    class itemframe2d shared
+    class itemframegrid2d shared
+    class labelhelper shared
+    class numberdisplay core
+    class placeableitem2d shared
+    class placeableobject2d shared
+    class placementarea2d core
+    class rotatetomouse shared
+    class rotator2d shared
+    class savemanager shared
+    class selectableui core
+    class simplecraftingrecipees shared
+    class smoothui core
+    class spritehelper core
+    class spritehelperll external
+    class spriteplacement shared
+    class state shared
+    class topdownmovement core
 
+    click 1to9numberdisplay href "https://github.com/ChillCube/1to9NumberDisplay" _blank
+    click 2d_node_arranger href "https://github.com/ChillCube/2d_node_arranger" _blank
+    click 2dcard href "https://github.com/ChillCube/2dCard" _blank
+    click cameralockerarea2d href "https://github.com/ChillCube/CameraLockerArea2D" _blank
+    click card_hand href "https://github.com/ChillCube/Card_Hand" _blank
+    click chillsteamplugin href "https://github.com/ChillCube/ChillSteamPlugin" _blank
+    click craftbench href "https://github.com/ChillCube/CraftBench" _blank
     click damageformula href "https://github.com/ChillCube/DamageFormula" _blank
     click damagereceiver href "https://github.com/ChillCube/DamageReceiver" _blank
+    click followingcamera2d href "https://github.com/ChillCube/FollowingCamera2D" _blank
+    click godot_2d_mouse_dragging href "https://github.com/ChillCube/Godot_2D_Mouse_Dragging" _blank
+    click godot_grid href "https://github.com/ChillCube/Godot_Grid" _blank
     click godot_hitflashanimation href "https://github.com/ChillCube/Godot_HitflashAnimation" _blank
     click godot_levelup_stats_and_exp_system href "https://github.com/ChillCube/Godot_LevelUp-Stats-and-EXP-system" _blank
+    click godot_smoothmovement href "https://github.com/ChillCube/Godot_SmoothMovement" _blank
+    click godot_spritebasedsmoothmenubutton2d href "https://github.com/ChillCube/Godot_SpriteBasedSmoothMenuButton2D" _blank
+    click godot_topdown_character_controller href "https://github.com/ChillCube/Godot_TopDown_Character_Controller" _blank
+    click godotbullet href "https://github.com/ChillCube/GodotBullet" _blank
+    click gridarranger href "https://github.com/ChillCube/GridArranger" _blank
+    click gun2d href "https://github.com/ChillCube/Gun2D" _blank
     click healthanddamagearea href "https://github.com/ChillCube/HealthAndDamageArea" _blank
+    click heart_popup href "https://github.com/ChillCube/heart_popup" _blank
+    click huntingbehaviour href "https://github.com/ChillCube/HuntingBehaviour" _blank
+    click inventoryframe2d href "https://github.com/ChillCube/InventoryFrame2D" _blank
+    click inventorygodot href "https://github.com/ChillCube/InventoryGodot" _blank
+    click inventorygrid2d href "https://github.com/ChillCube/InventoryGrid2D" _blank
+    click inventorymanagergrid href "https://github.com/ChillCube/InventoryManagerGrid" _blank
+    click itemframe2d href "https://github.com/ChillCube/ItemFrame2D" _blank
+    click itemframegrid2d href "https://github.com/ChillCube/ItemFrameGrid2D" _blank
+    click labelhelper href "https://github.com/ChillCube/LabelHelper" _blank
+    click numberdisplay href "https://github.com/ChillCube/NumberDisplay" _blank
+    click placeableitem2d href "https://github.com/ChillCube/PlaceAbleItem2D" _blank
+    click placeableobject2d href "https://github.com/ChillCube/PlaceAbleObject2D" _blank
+    click placementarea2d href "https://github.com/ChillCube/PlacementArea2D" _blank
+    click rotatetomouse href "https://github.com/ChillCube/RotateToMouse" _blank
+    click rotator2d href "https://github.com/ChillCube/Rotator2D" _blank
+    click savemanager href "https://github.com/ChillCube/SaveManager" _blank
+    click selectableui href "https://github.com/ChillCube/SelectableUI" _blank
+    click simplecraftingrecipees href "https://github.com/ChillCube/SimpleCraftingRecipees" _blank
+    click smoothui href "https://github.com/ChillCube/SmoothUI" _blank
+    click spritehelper href "https://github.com/ChillCube/SpriteHelper" _blank
+    click spritehelperll href "https://github.com/ChillCube/SpriteHelperll" _blank
+    click spriteplacement href "https://github.com/ChillCube/SpritePlacement" _blank
+    click state href "https://github.com/ChillCube/State" _blank
+    click steamlobbylist href "https://github.com/ChillCube/SteamLobbyList" _blank
+    click topdownmovement href "https://github.com/ChillCube/TopDownMovement" _blank
+    click visualcountdown href "https://github.com/ChillCube/visualCountDown" _blank
 ```
 
-**Standalone addons:** [ChillCube Tools](https://github.com/ChillCube/ChillCube-Developer-Tools)
+**Standalone addons:** [AttractedObject2D](https://github.com/ChillCube/AttractedObject2D) · [VehicleController2D](https://github.com/ChillCube/Godot_VehicleController2D) · [PlatformerCharacterController](https://github.com/ChillCube/Godot_PlatformerCharacterController) · [StatusBar](https://github.com/ChillCube/Godot_StatusBar) · [BurneableObject](https://github.com/ChillCube/BurneableObject) · [SpriteAnimations3D](https://github.com/ChillCube/SpriteAnimations3D) · [Deck of Nodes](https://github.com/ChillCube/Deck_of_Nodes) · [CurrencyGodot](https://github.com/ChillCube/CurrencyGodot) · [ChillCube Tools](https://github.com/ChillCube/ChillCube-Developer-Tools)
 
-**🏆 Progress Score: 310 pts** — _+10 per .gd file · +50 per module that depends on you · +20 per dependency layer_
+**🏆 Progress Score: 5000 pts** — _+10 per .gd file · +50 per module that depends on you · +20 per dependency layer_
 <!-- DEPENDENCY-TREE-END -->
