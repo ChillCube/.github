@@ -94,6 +94,7 @@ but if that is not an option for you, you can download them manually. Just make 
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 ## 🧩 Procedural Generation
+* [ClockResource](https://github.com/ChillCube/ClockResource) - A resource which handles the time of day values.
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 ## 🔧 Editor Tools
