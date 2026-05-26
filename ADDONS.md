@@ -39,6 +39,7 @@ but if that is not an option for you, you can download them manually. Just make 
 * [ChillSteamPlugin](https://github.com/ChillCube/ChillSteamPlugin) - A custom version of the GodotSteam plugin, made to be comptaible with ChillCube's developer tools and made with specific features for ChillCube
 
 ## 🖥️ UI & Menus
+* [TimeUnitDisplay2D](https://github.com/ChillCube/TimeUnitDisplay2D) - Displays one specific time unit, those being hours, minutes and seconds.
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 * [visualCountDown](https://github.com/ChillCube/visualCountDown) - a node that will display a countdown on screen
 * [SelectableUI](https://github.com/ChillCube/SelectableUI) - an addon that manages selectable UI elements in godot
