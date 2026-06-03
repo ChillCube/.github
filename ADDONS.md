@@ -61,6 +61,7 @@ but if that is not an option for you, you can download them manually. Just make 
 * [GodotBullet](https://github.com/ChillCube/GodotBullet) - A flexible bullet Node for Godot
 
 ## 📦 Inventory & Items
+* [StorageNode](https://github.com/ChillCube/StorageNode) - A node that is used to store items in it
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 * [InventoryManagerGrid](https://github.com/ChillCube/InventoryManagerGrid) - A 2D inventory grid
 * [InventoryFrame2D](https://github.com/ChillCube/InventoryFrame2D) - A node for displaying and managing a specific inventory slot and its item
