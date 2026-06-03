@@ -183,76 +183,123 @@ but if that is not an option for you, you can download them manually. Just make 
 <!-- DEPENDENCY-TREE-START -->
 ## 🌳 Dependency Tree
 
-```mermaid
-%%{init: {"flowchart": {"curve": "linear"}}}%%
-flowchart BT
-    classDef core  fill:#4a9eff,stroke:#2471d4,color:#fff
-    classDef shared fill:#a29bfe,stroke:#6c5ce7,color:#fff
-    classDef external fill:#fd9644,stroke:#e67e22,color:#fff
+| | |
+|---|---|
+| 🏗️ Height (layers) | 6 |
+| 📐 Avg width per layer | 8.0 |
+| 📦 Addons in tree | 48 |
+| 🏆 Score | 4300 pts |
+| 🔗 Most relied on | **InventoryGodot** ×6 · **SpriteHelper** ×6 · **SmoothMovement** ×5 · **2D Node Arranger** ×4 · **NumberDisplay** ×4 |
 
-    subgraph Layer_0["🧱 Layer 0 — Foundation"]
-        chillsteamplugin["ChillSteamPlugin"]
-        damageformula["DamageFormula"]
-        godot_grid["Grid"]
-        godot_hitflashanimation["HitflashAnimation"]
-        godot_levelup_stats_and_exp_system["LevelUp-Stats-and-EXP-system"]
-        godot_smoothmovement["SmoothMovement"]
-        labelhelper["LabelHelper"]
-        rotator2d["Rotator2D"]
-        savemanager["SaveManager"]
-        spritehelper["SpriteHelper"]
-        spritehelperll["SpriteHelperll"]
-        state["State"]
-        topdownmovement["TopDownMovement"]
-    end
-    subgraph Layer_1["Layer 1"]
-        2d_node_arranger["2D Node Arranger"]
-        damagereceiver["DamageReceiver"]
-        followingcamera2d["FollowingCamera2D"]
-        godot_2d_mouse_dragging["2D Mouse Dragging"]
-        godot_topdown_character_controller["TopDown Character Controller"]
-        godotbullet["GodotBullet"]
-        heart_popup["heart popup"]
-        huntingbehaviour["HuntingBehaviour"]
-        inventorygodot["InventoryGodot"]
-        rotatetomouse["RotateToMouse"]
-    end
-    subgraph Layer_2["Layer 2"]
-        cameralockerarea2d["CameraLockerArea2D"]
-        card_hand["Card Hand"]
-        gridarranger["GridArranger"]
-        gun2d["Gun2D"]
-        healthanddamagearea["HealthAndDamageArea"]
-        placementarea2d["PlacementArea2D"]
-        simplecraftingrecipees["SimpleCraftingRecipees"]
-        smoothui["SmoothUI"]
-    end
-    subgraph Layer_3["Layer 3"]
-        1to9numberdisplay["1to9NumberDisplay"]
-        2dcard["2dCard"]
-        craftbench["CraftBench"]
-        placeableobject2d["PlaceAbleObject2D"]
-        selectableui["SelectableUI"]
-        spriteplacement["SpritePlacement"]
-    end
-    subgraph Layer_4["Layer 4"]
-        godot_spritebasedsmoothmenubutton2d["SpriteBasedSmoothMenuButton2D"]
-        itemframe2d["ItemFrame2D"]
-        numberdisplay["NumberDisplay"]
-    end
-    subgraph Layer_5["Layer 5"]
-        itemframegrid2d["ItemFrameGrid2D"]
-        placeableitem2d["PlaceAbleItem2D"]
-        steamlobbylist["SteamLobbyList"]
-        visualcountdown["visualCountDown"]
-    end
-    subgraph Layer_6["Layer 6"]
-        inventoryframe2d["InventoryFrame2D"]
-        inventorygrid2d["InventoryGrid2D"]
-    end
-    subgraph Layer_7["Layer 7"]
-        inventorymanagergrid["InventoryManagerGrid"]
-    end
+✅ Your tree is **balanced** — good mix of depth and breadth.
+
+**Standalone (no connections yet):** [AttractedObject2D](https://github.com/ChillCube/AttractedObject2D) · [BurneableObject](https://github.com/ChillCube/BurneableObject) · [CalendarResource](https://github.com/ChillCube/CalendarResource) · [ChillCube Tools](https://github.com/ChillCube/ChillCube-Developer-Tools) · [ClockResource](https://github.com/ChillCube/ClockResource) · [CurrencyGodot](https://github.com/ChillCube/CurrencyGodot) · [Deck of Nodes](https://github.com/ChillCube/Deck_of_Nodes) · [PlatformerCharacterController](https://github.com/ChillCube/Godot_PlatformerCharacterController) · [SaveManager](https://github.com/ChillCube/SaveManager) · [SpriteAnimations3D](https://github.com/ChillCube/SpriteAnimations3D) · [StatusBar](https://github.com/ChillCube/Godot_StatusBar) · [VehicleController2D](https://github.com/ChillCube/Godot_VehicleController2D)
+
+```mermaid
+%%{init: {"flowchart": {"curve": "basis", "nodeSpacing": 40, "rankSpacing": 80}}}%%
+flowchart LR
+    classDef foundation fill:#00b894,stroke:#00856f,color:#fff
+    classDef core      fill:#4a9eff,stroke:#2471d4,color:#fff
+    classDef shared    fill:#a29bfe,stroke:#6c5ce7,color:#fff
+    classDef leaf      fill:#636e72,stroke:#2d3436,color:#fff
+    classDef external  fill:#fd9644,stroke:#e67e22,color:#fff
+
+    1to9numberdisplay["1to9NumberDisplay
+⬛ Foundation · ★×1"]
+    chillsteamplugin["ChillSteamPlugin
+⬛ Foundation · ★×1"]
+    inventorygodot["InventoryGodot
+⬛ Foundation · ★×6"]
+    2d_node_arranger["2D Node Arranger
+⬛ Foundation · ★×4"]
+    clock["Clock
+⬛ Foundation · ★×1"]
+    smoothui["SmoothUI
+⬛ Foundation · ★×1"]
+    spritehelper["SpriteHelper
+⬛ Foundation · ★×6"]
+    damageformula["DamageFormula
+⬛ Foundation · ★×2"]
+    godot_hitflashanimation["HitflashAnimation
+⬛ Foundation · ★×1"]
+    godot_levelup_stats_and_exp_system["LevelUp-Stats-and-EXP-system
+⬛ Foundation · ★×1"]
+    godot_grid["Grid
+⬛ Foundation · ★×1"]
+    godot_smoothmovement["SmoothMovement
+⬛ Foundation · ★×5"]
+    labelhelper["LabelHelper
+⬛ Foundation · ★×1"]
+    rotator2d["Rotator2D
+⬛ Foundation · ★×1"]
+    state["State
+⬛ Foundation · ★×1"]
+    topdownmovement["TopDownMovement
+⬛ Foundation · ★×2"]
+    numberdisplay["NumberDisplay
+L1 · ★×4"]
+    gridarranger["GridArranger
+L1 · ★×1"]
+    storagenode["StorageNode
+L1"]
+    selectableui["SelectableUI
+L1 · ★×2"]
+    simplecraftingrecipees["SimpleCraftingRecipees
+L1 · ★×1"]
+    godot_2d_mouse_dragging["2D Mouse Dragging
+L1 · ★×3"]
+    damagereceiver["DamageReceiver
+L1 · ★×1"]
+    card_hand["Card Hand
+L1 · ★×1"]
+    godotbullet["GodotBullet
+L1 · ★×1"]
+    heart_popup["heart popup
+L1"]
+    rotatetomouse["RotateToMouse
+L1 · ★×1"]
+    followingcamera2d["FollowingCamera2D
+L1 · ★×1"]
+    huntingbehaviour["HuntingBehaviour
+L1"]
+    godot_topdown_character_controller["TopDown Character Controller
+L1"]
+    visualcountdown["visualCountDown
+L2"]
+    godot_spritebasedsmoothmenubutton2d["SpriteBasedSmoothMenuButton2D
+L2 · ★×1"]
+    timeunitdisplay2d["TimeUnitDisplay2D
+L2"]
+    itemframe2d["ItemFrame2D
+L2 · ★×1"]
+    craftbench["CraftBench
+L2"]
+    placementarea2d["PlacementArea2D
+L2 · ★×2"]
+    healthanddamagearea["HealthAndDamageArea
+L2"]
+    2dcard["2dCard
+L2"]
+    gun2d["Gun2D
+L2"]
+    cameralockerarea2d["CameraLockerArea2D
+L2"]
+    steamlobbylist["SteamLobbyList
+L3"]
+    itemframegrid2d["ItemFrameGrid2D
+L3 · ★×1"]
+    spriteplacement["SpritePlacement
+L3 · ★×1"]
+    placeableobject2d["PlaceAbleObject2D
+L3 · ★×1"]
+    inventorygrid2d["InventoryGrid2D
+L4"]
+    placeableitem2d["PlaceAbleItem2D
+L4 · ★×1"]
+    inventoryframe2d["InventoryFrame2D
+L5 · ★×1"]
+    inventorymanagergrid["InventoryManagerGrid
+L6"]
 
     godotbullet --> gun2d
     rotatetomouse --> gun2d
@@ -272,22 +319,20 @@ flowchart BT
     chillsteamplugin --> steamlobbylist
     2d_node_arranger --> steamlobbylist
     godot_spritebasedsmoothmenubutton2d --> steamlobbylist
+    numberdisplay --> timeunitdisplay2d
+    clock --> timeunitdisplay2d
     numberdisplay --> visualcountdown
     smoothui --> selectableui
-    spritehelperll --> selectableui
-    smoothui --> 1to9numberdisplay
+    spritehelper --> selectableui
     1to9numberdisplay --> numberdisplay
     2d_node_arranger --> numberdisplay
     itemframegrid2d --> inventorygrid2d
     inventorygodot --> inventorygrid2d
-    godot_smoothmovement --> smoothui
-    2d_node_arranger --> smoothui
     inventorygodot --> itemframe2d
     selectableui --> itemframe2d
     godot_smoothmovement --> heart_popup
     labelhelper --> heart_popup
     spritehelper --> heart_popup
-    godot_smoothmovement --> 2d_node_arranger
     selectableui --> godot_spritebasedsmoothmenubutton2d
     damageformula --> healthanddamagearea
     godot_levelup_stats_and_exp_system --> healthanddamagearea
@@ -295,6 +340,7 @@ flowchart BT
     damageformula --> damagereceiver
     godot_hitflashanimation --> damagereceiver
     spritehelper --> godotbullet
+    inventorygodot --> storagenode
     inventoryframe2d --> inventorymanagergrid
     numberdisplay --> inventorymanagergrid
     inventorygodot --> inventorymanagergrid
@@ -305,7 +351,6 @@ flowchart BT
     gridarranger --> itemframegrid2d
     simplecraftingrecipees --> craftbench
     inventorygodot --> simplecraftingrecipees
-    savemanager --> inventorygodot
     godot_smoothmovement --> followingcamera2d
     godot_2d_mouse_dragging --> placementarea2d
     2d_node_arranger --> card_hand
@@ -317,41 +362,54 @@ flowchart BT
     followingcamera2d --> cameralockerarea2d
     rotator2d --> rotatetomouse
 
-    class 1to9numberdisplay shared
-    class 2d_node_arranger core
+    class 1to9numberdisplay foundation
+    class 2d_node_arranger foundation
+    class 2dcard leaf
+    class cameralockerarea2d leaf
     class card_hand shared
-    class chillsteamplugin shared
-    class damageformula core
+    class chillsteamplugin foundation
+    class clock external
+    class craftbench leaf
+    class damageformula foundation
     class damagereceiver shared
     class followingcamera2d shared
     class godot_2d_mouse_dragging core
-    class godot_grid shared
-    class godot_hitflashanimation shared
-    class godot_levelup_stats_and_exp_system shared
-    class godot_smoothmovement core
+    class godot_grid foundation
+    class godot_hitflashanimation foundation
+    class godot_levelup_stats_and_exp_system foundation
+    class godot_smoothmovement foundation
     class godot_spritebasedsmoothmenubutton2d shared
+    class godot_topdown_character_controller leaf
     class godotbullet shared
     class gridarranger shared
+    class gun2d leaf
+    class healthanddamagearea leaf
+    class heart_popup leaf
+    class huntingbehaviour leaf
     class inventoryframe2d shared
-    class inventorygodot core
+    class inventorygodot foundation
+    class inventorygrid2d leaf
+    class inventorymanagergrid leaf
     class itemframe2d shared
     class itemframegrid2d shared
-    class labelhelper shared
+    class labelhelper foundation
     class numberdisplay core
     class placeableitem2d shared
     class placeableobject2d shared
     class placementarea2d core
     class rotatetomouse shared
-    class rotator2d shared
-    class savemanager shared
+    class rotator2d foundation
     class selectableui core
     class simplecraftingrecipees shared
-    class smoothui core
-    class spritehelper core
-    class spritehelperll external
+    class smoothui foundation
+    class spritehelper foundation
     class spriteplacement shared
-    class state shared
-    class topdownmovement core
+    class state foundation
+    class steamlobbylist leaf
+    class storagenode leaf
+    class timeunitdisplay2d leaf
+    class topdownmovement foundation
+    class visualcountdown leaf
 
     click 1to9numberdisplay href "https://github.com/ChillCube/1to9NumberDisplay" _blank
     click 2d_node_arranger href "https://github.com/ChillCube/2d_node_arranger" _blank
@@ -359,6 +417,7 @@ flowchart BT
     click cameralockerarea2d href "https://github.com/ChillCube/CameraLockerArea2D" _blank
     click card_hand href "https://github.com/ChillCube/Card_Hand" _blank
     click chillsteamplugin href "https://github.com/ChillCube/ChillSteamPlugin" _blank
+    click clock href "https://github.com/ChillCube/Clock" _blank
     click craftbench href "https://github.com/ChillCube/CraftBench" _blank
     click damageformula href "https://github.com/ChillCube/DamageFormula" _blank
     click damagereceiver href "https://github.com/ChillCube/DamageReceiver" _blank
@@ -389,20 +448,16 @@ flowchart BT
     click placementarea2d href "https://github.com/ChillCube/PlacementArea2D" _blank
     click rotatetomouse href "https://github.com/ChillCube/RotateToMouse" _blank
     click rotator2d href "https://github.com/ChillCube/Rotator2D" _blank
-    click savemanager href "https://github.com/ChillCube/SaveManager" _blank
     click selectableui href "https://github.com/ChillCube/SelectableUI" _blank
     click simplecraftingrecipees href "https://github.com/ChillCube/SimpleCraftingRecipees" _blank
     click smoothui href "https://github.com/ChillCube/SmoothUI" _blank
     click spritehelper href "https://github.com/ChillCube/SpriteHelper" _blank
-    click spritehelperll href "https://github.com/ChillCube/SpriteHelperll" _blank
     click spriteplacement href "https://github.com/ChillCube/SpritePlacement" _blank
     click state href "https://github.com/ChillCube/State" _blank
     click steamlobbylist href "https://github.com/ChillCube/SteamLobbyList" _blank
+    click storagenode href "https://github.com/ChillCube/StorageNode" _blank
+    click timeunitdisplay2d href "https://github.com/ChillCube/TimeUnitDisplay2D" _blank
     click topdownmovement href "https://github.com/ChillCube/TopDownMovement" _blank
     click visualcountdown href "https://github.com/ChillCube/visualCountDown" _blank
 ```
-
-**Standalone addons:** [AttractedObject2D](https://github.com/ChillCube/AttractedObject2D) · [VehicleController2D](https://github.com/ChillCube/Godot_VehicleController2D) · [PlatformerCharacterController](https://github.com/ChillCube/Godot_PlatformerCharacterController) · [StatusBar](https://github.com/ChillCube/Godot_StatusBar) · [BurneableObject](https://github.com/ChillCube/BurneableObject) · [SpriteAnimations3D](https://github.com/ChillCube/SpriteAnimations3D) · [Deck of Nodes](https://github.com/ChillCube/Deck_of_Nodes) · [CurrencyGodot](https://github.com/ChillCube/CurrencyGodot) · [ChillCube Tools](https://github.com/ChillCube/ChillCube-Developer-Tools)
-
-**🏆 Progress Score: 5000 pts** — _+10 per .gd file · +50 per module that depends on you · +20 per dependency layer_
 <!-- DEPENDENCY-TREE-END -->
