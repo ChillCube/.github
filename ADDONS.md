@@ -8,6 +8,7 @@ but if that is not an option for you, you can download them manually. Just make 
 ---
 
 ## 🎮 Core Systems
+* [ArrowVisualizer](https://github.com/ChillCube/ArrowVisualizer) - A node for displaying arrows on the screen
 * [CalendarResource](https://github.com/ChillCube/CalendarResource) - Resources for creating fantasy calendar systems
 * [Gun2D](https://github.com/ChillCube/Gun2D) - A Gun2D node that lets you fire different types of bullets towards the mouse
 * [AttractedObject2D](https://github.com/ChillCube/AttractedObject2D) - A node in godot that is attracted to a predefined other Node and will move towards it. Useful for games where the player collects coins, experience or items
