@@ -8,6 +8,7 @@ but if that is not an option for you, you can download them manually. Just make 
 ---
 
 ## 🎮 Core Systems
+* [TeamColours](https://github.com/ChillCube/TeamColours) - A resource that lets you define team colours for a game
 * [ArrowVisualizer](https://github.com/ChillCube/ArrowVisualizer) - A node for displaying arrows on the screen
 * [CalendarResource](https://github.com/ChillCube/CalendarResource) - Resources for creating fantasy calendar systems
 * [Gun2D](https://github.com/ChillCube/Gun2D) - A Gun2D node that lets you fire different types of bullets towards the mouse
