@@ -8,6 +8,7 @@ but if that is not an option for you, you can download them manually. Just make 
 ---
 
 ## 🎮 Core Systems
+* [TurnManager](https://github.com/ChillCube/TurnManager) - A node for managing turns in a turn based game
 * [MouseMovableCamera](https://github.com/ChillCube/MouseMovableCamera) - A camera that can be moved with the mouse
 * [SimpleTeamColourSprite](https://github.com/ChillCube/SimpleTeamColourSprite) - A simple sprite node that will adapts its colours based on what team it is set to be.
 * [TeamColours](https://github.com/ChillCube/TeamColours) - A resource that lets you define team colours for a game
