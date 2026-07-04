@@ -99,6 +99,7 @@ but if that is not an option for you, you can download them manually. Just make 
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 ## 📝 Dialogue & Quests
+* [Letter-instance](https://github.com/ChillCube/Letter-instance) - A scene that is used in a strategy game prototype for showing and managing letters
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 ## 🧩 Procedural Generation
