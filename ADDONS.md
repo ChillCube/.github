@@ -8,6 +8,7 @@ but if that is not an option for you, you can download them manually. Just make 
 ---
 
 ## 🎮 Core Systems
+* [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
 * [TurnManager](https://github.com/ChillCube/TurnManager) - A node for managing turns in a turn based game
@@ -32,6 +33,7 @@ but if that is not an option for you, you can download them manually. Just make 
 * [TopDownMovement](https://github.com/ChillCube/TopDownMovement) - A godot addon used to create top down movement. Can be used for both player characters and NPCs
 
 ## 🕹️ Character Controllers
+* [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
@@ -40,12 +42,14 @@ but if that is not an option for you, you can download them manually. Just make 
 * [Godot_PlatformerCharacterController](https://github.com/ChillCube/Godot_PlatformerCharacterController) - A simple character controller for platformer games in Godot
 
 ## 🧠 AI & Pathfinding
+* [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 * [HuntingBehaviour](https://github.com/ChillCube/HuntingBehaviour) - an addon to create hunting behaviour on a node
 
 ## 🌐 Networking
+* [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
@@ -53,6 +57,7 @@ but if that is not an option for you, you can download them manually. Just make 
 * [ChillSteamPlugin](https://github.com/ChillCube/ChillSteamPlugin) - A custom version of the GodotSteam plugin, made to be comptaible with ChillCube's developer tools and made with specific features for ChillCube
 
 ## 🖥️ UI & Menus
+* [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
 * [TimeUnitDisplay2D](https://github.com/ChillCube/TimeUnitDisplay2D) - Displays one specific time unit, those being hours, minutes and seconds.
@@ -70,6 +75,7 @@ but if that is not an option for you, you can download them manually. Just make 
 * [Godot_SpriteBasedSmoothMenuButton2D](https://github.com/ChillCube/Godot_SpriteBasedSmoothMenuButton2D) - A different way of handling menu buttons, rather than using control nodes. This can be useful for animations among others
 
 ## ⚔️ Combat & Abilities
+* [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
 * [DamageFormula](https://github.com/ChillCube/DamageFormula) - A resource for allowing calculation of damage in different ways.
@@ -79,6 +85,7 @@ but if that is not an option for you, you can download them manually. Just make 
 * [GodotBullet](https://github.com/ChillCube/GodotBullet) - A flexible bullet Node for Godot
 
 ## 📦 Inventory & Items
+* [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
 * [StorageNode](https://github.com/ChillCube/StorageNode) - A node that is used to store items in it
@@ -92,26 +99,31 @@ but if that is not an option for you, you can download them manually. Just make 
 * [BurneableObject](https://github.com/ChillCube/BurneableObject) - An addon used for burneable objects. This is used for a campfire sim project we are working on
 
 ## 🗺️ World & Level Management
+* [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 ## 🎵 Audio Management
+* [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 ## 📊 Saving & Loading
+* [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 ## ⚙️ Settings & Configuration
+* [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 ## ✨ Polish & Juice
+* [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
@@ -119,34 +131,40 @@ but if that is not an option for you, you can download them manually. Just make 
 * [Godot_HitflashAnimation](https://github.com/ChillCube/Godot_HitflashAnimation) - A godot addon that can be used to apply hitlfash animations to nodes
 
 ## 🎬 Camera Systems
+* [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
 * [FollowingCamera2D](https://github.com/ChillCube/FollowingCamera2D) - A camera node that lets you simply pick a node and have the camera track the position of that node
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 ## 📝 Dialogue & Quests
+* [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
 * [Letter-instance](https://github.com/ChillCube/Letter-instance) - A scene that is used in a strategy game prototype for showing and managing letters
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 ## 🧩 Procedural Generation
+* [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
 * [ClockResource](https://github.com/ChillCube/ClockResource) - A resource which handles the time of day values.
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 ## 🔧 Editor Tools
+* [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 ## 🤝 Multiplayer (Local & Online)
+* [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 ## 🎴 Card Game Systems
+* [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
@@ -156,18 +174,21 @@ but if that is not an option for you, you can download them manually. Just make 
 * [2dCard](https://github.com/ChillCube/2dCard) - A node that can be used to create 2D cards for card games
 
 ## 💰 Economy & Shops
+* [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 * [CurrencyGodot](https://github.com/ChillCube/CurrencyGodot) - A custom resource meant to help create economic simulations for fantasy currencies
 
 ## 🏆 Progression & Achievements
+* [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 * [Godot_LevelUp-Stats-and-EXP-system](https://github.com/ChillCube/Godot_LevelUp-Stats-and-EXP-system) - A system for level ups, stats and exp for godot
 
 ## 🎨 Visual Effects (Shaders/VFX)
+* [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
@@ -224,6 +245,7 @@ but if that is not an option for you, you can download them manually. Just make 
 
 
 ## Uncategorized
+* [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
 * [CameraLockerArea2D](https://github.com/ChillCube/CameraLockerArea2D) - An Area2D that works with FollowerCamera2D. If the node the camera is following enters this area, the camera will instead lock onto this area, until the node leaves the area.
@@ -235,6 +257,7 @@ but if that is not an option for you, you can download them manually. Just make 
 
 <!-- DEPENDENCY-TREE-START -->
 ## 🌳 Dependency Tree
+* [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
 
