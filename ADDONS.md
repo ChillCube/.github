@@ -255,11 +255,9 @@ but if that is not an option for you, you can download them manually. Just make 
 
 
 
+
 <!-- DEPENDENCY-TREE-START -->
 ## 🌳 Dependency Tree
-* [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
-* [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
-* [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
 
 ```mermaid
 flowchart LR
@@ -311,5 +309,5 @@ flowchart LR
     click visualCountDown href "https://github.com/ChillCube/visualCountDown" _blank
 ```
 
-**Standalone addons:** DirectionalAnimatedSprite · InteractableNode · [LabelHelper](https://github.com/ChillCube/LabelHelper) · [2D Node Arranger](https://github.com/ChillCube/2d_node_arranger) · speechbubble
+**Standalone addons:** [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) · [InteractableNode](https://github.com/ChillCube/InteractableNode) · [LabelHelper](https://github.com/ChillCube/LabelHelper) · [2D Node Arranger](https://github.com/ChillCube/2d_node_arranger) · [speechbubble](https://github.com/ChillCube/speechbubble)
 <!-- DEPENDENCY-TREE-END -->
