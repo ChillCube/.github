@@ -187,6 +187,7 @@ but if that is not an option for you, you can download them manually. Just make 
 * [Rotator2D](https://github.com/ChillCube/Rotator2D) - A node that rotates its parent
 * [ChillCube Tools](https://github.com/ChillCube/ChillCube-Developer-Tools) - Manage ChillCube addons directly from the Godot editor — no terminal required.
 
+
 <!-- DEPENDENCY-TREE-START -->
 ## 🌳 Dependency Tree
 
@@ -195,16 +196,50 @@ flowchart LR
     classDef core  fill:#4a9eff,stroke:#2471d4,color:#fff,font-weight:bold
     classDef shared fill:#a29bfe,stroke:#6c5ce7,color:#fff
 
-    Godot_2D_Mouse_Dragging["2D Mouse Dragging"]
     Godot_SmoothMovement["SmoothMovement"]
+    Godot_SpriteBasedSmoothMenuButton2D["SpriteBasedSmoothMenuButton2D"]
+    Godot_TopDown_Character_Controller["TopDown Character Controller"]
+    n_1to9NumberDisplay["1to9NumberDisplay"]
+    n_2d_node_arranger["2d node arranger"]
+    NumberDisplay["NumberDisplay"]
+    SelectableUI["SelectableUI"]
+    SmoothUI["SmoothUI"]
+    SpriteHelper["SpriteHelper"]
+    TopDownMovement["TopDownMovement"]
+    visualCountDown["visualCountDown"]
 
-    Godot_2D_Mouse_Dragging --> Godot_SmoothMovement
+    Godot_SpriteBasedSmoothMenuButton2D --> Godot_SmoothMovement
+    Godot_SpriteBasedSmoothMenuButton2D --> SelectableUI
+    Godot_TopDown_Character_Controller --> TopDownMovement
+    n_1to9NumberDisplay --> SmoothUI
+    NumberDisplay --> n_1to9NumberDisplay
+    NumberDisplay --> n_2d_node_arranger
+    SelectableUI --> SmoothUI
+    SelectableUI --> SpriteHelper
+    SmoothUI --> Godot_SmoothMovement
+    visualCountDown --> NumberDisplay
 
-    class Godot_SmoothMovement shared
+    class Godot_SmoothMovement core
+    class n_1to9NumberDisplay shared
+    class n_2d_node_arranger shared
+    class NumberDisplay shared
+    class SelectableUI shared
+    class SmoothUI core
+    class SpriteHelper shared
+    class TopDownMovement shared
 
-    click Godot_2D_Mouse_Dragging href "https://github.com/ChillCube/Godot_2D_Mouse_Dragging" _blank
     click Godot_SmoothMovement href "https://github.com/ChillCube/Godot_SmoothMovement" _blank
+    click Godot_SpriteBasedSmoothMenuButton2D href "https://github.com/ChillCube/Godot_SpriteBasedSmoothMenuButton2D" _blank
+    click Godot_TopDown_Character_Controller href "https://github.com/ChillCube/Godot_TopDown_Character_Controller" _blank
+    click n_1to9NumberDisplay href "https://github.com/ChillCube/1to9NumberDisplay" _blank
+    click n_2d_node_arranger href "https://github.com/ChillCube/2d_node_arranger" _blank
+    click NumberDisplay href "https://github.com/ChillCube/NumberDisplay" _blank
+    click SelectableUI href "https://github.com/ChillCube/SelectableUI" _blank
+    click SmoothUI href "https://github.com/ChillCube/SmoothUI" _blank
+    click SpriteHelper href "https://github.com/ChillCube/SpriteHelper" _blank
+    click TopDownMovement href "https://github.com/ChillCube/TopDownMovement" _blank
+    click visualCountDown href "https://github.com/ChillCube/visualCountDown" _blank
 ```
 
-**Standalone addons:** [Letter-instance](https://github.com/ChillCube/Letter-instance)
+**Standalone addons:** DirectionalAnimatedSprite · InteractableNode · [LabelHelper](https://github.com/ChillCube/LabelHelper) · [2D Node Arranger](https://github.com/ChillCube/2d_node_arranger) · speechbubble
 <!-- DEPENDENCY-TREE-END -->
