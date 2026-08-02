@@ -8,6 +8,7 @@ but if that is not an option for you, you can download them manually. Just make 
 ---
 
 ## 🎮 Core Systems
+* [ChasingAI](https://github.com/ChillCube/ChasingAI) - An AI that chases a player and uses obstacle avoidance
 * [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
@@ -33,6 +34,7 @@ but if that is not an option for you, you can download them manually. Just make 
 * [TopDownMovement](https://github.com/ChillCube/TopDownMovement) - A godot addon used to create top down movement. Can be used for both player characters and NPCs
 
 ## 🕹️ Character Controllers
+* [ChasingAI](https://github.com/ChillCube/ChasingAI) - An AI that chases a player and uses obstacle avoidance
 * [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
@@ -42,6 +44,7 @@ but if that is not an option for you, you can download them manually. Just make 
 * [Godot_PlatformerCharacterController](https://github.com/ChillCube/Godot_PlatformerCharacterController) - A simple character controller for platformer games in Godot
 
 ## 🧠 AI & Pathfinding
+* [ChasingAI](https://github.com/ChillCube/ChasingAI) - An AI that chases a player and uses obstacle avoidance
 * [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
@@ -49,6 +52,7 @@ but if that is not an option for you, you can download them manually. Just make 
 * [HuntingBehaviour](https://github.com/ChillCube/HuntingBehaviour) - an addon to create hunting behaviour on a node
 
 ## 🌐 Networking
+* [ChasingAI](https://github.com/ChillCube/ChasingAI) - An AI that chases a player and uses obstacle avoidance
 * [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
@@ -57,6 +61,7 @@ but if that is not an option for you, you can download them manually. Just make 
 * [ChillSteamPlugin](https://github.com/ChillCube/ChillSteamPlugin) - A custom version of the GodotSteam plugin, made to be comptaible with ChillCube's developer tools and made with specific features for ChillCube
 
 ## 🖥️ UI & Menus
+* [ChasingAI](https://github.com/ChillCube/ChasingAI) - An AI that chases a player and uses obstacle avoidance
 * [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
@@ -75,6 +80,7 @@ but if that is not an option for you, you can download them manually. Just make 
 * [Godot_SpriteBasedSmoothMenuButton2D](https://github.com/ChillCube/Godot_SpriteBasedSmoothMenuButton2D) - A different way of handling menu buttons, rather than using control nodes. This can be useful for animations among others
 
 ## ⚔️ Combat & Abilities
+* [ChasingAI](https://github.com/ChillCube/ChasingAI) - An AI that chases a player and uses obstacle avoidance
 * [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
@@ -85,6 +91,7 @@ but if that is not an option for you, you can download them manually. Just make 
 * [GodotBullet](https://github.com/ChillCube/GodotBullet) - A flexible bullet Node for Godot
 
 ## 📦 Inventory & Items
+* [ChasingAI](https://github.com/ChillCube/ChasingAI) - An AI that chases a player and uses obstacle avoidance
 * [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
@@ -99,30 +106,35 @@ but if that is not an option for you, you can download them manually. Just make 
 * [BurneableObject](https://github.com/ChillCube/BurneableObject) - An addon used for burneable objects. This is used for a campfire sim project we are working on
 
 ## 🗺️ World & Level Management
+* [ChasingAI](https://github.com/ChillCube/ChasingAI) - An AI that chases a player and uses obstacle avoidance
 * [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 ## 🎵 Audio Management
+* [ChasingAI](https://github.com/ChillCube/ChasingAI) - An AI that chases a player and uses obstacle avoidance
 * [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 ## 📊 Saving & Loading
+* [ChasingAI](https://github.com/ChillCube/ChasingAI) - An AI that chases a player and uses obstacle avoidance
 * [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 ## ⚙️ Settings & Configuration
+* [ChasingAI](https://github.com/ChillCube/ChasingAI) - An AI that chases a player and uses obstacle avoidance
 * [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 ## ✨ Polish & Juice
+* [ChasingAI](https://github.com/ChillCube/ChasingAI) - An AI that chases a player and uses obstacle avoidance
 * [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
@@ -131,6 +143,7 @@ but if that is not an option for you, you can download them manually. Just make 
 * [Godot_HitflashAnimation](https://github.com/ChillCube/Godot_HitflashAnimation) - A godot addon that can be used to apply hitlfash animations to nodes
 
 ## 🎬 Camera Systems
+* [ChasingAI](https://github.com/ChillCube/ChasingAI) - An AI that chases a player and uses obstacle avoidance
 * [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
@@ -138,6 +151,7 @@ but if that is not an option for you, you can download them manually. Just make 
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 ## 📝 Dialogue & Quests
+* [ChasingAI](https://github.com/ChillCube/ChasingAI) - An AI that chases a player and uses obstacle avoidance
 * [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
@@ -145,6 +159,7 @@ but if that is not an option for you, you can download them manually. Just make 
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 ## 🧩 Procedural Generation
+* [ChasingAI](https://github.com/ChillCube/ChasingAI) - An AI that chases a player and uses obstacle avoidance
 * [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
@@ -152,18 +167,21 @@ but if that is not an option for you, you can download them manually. Just make 
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 ## 🔧 Editor Tools
+* [ChasingAI](https://github.com/ChillCube/ChasingAI) - An AI that chases a player and uses obstacle avoidance
 * [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 ## 🤝 Multiplayer (Local & Online)
+* [ChasingAI](https://github.com/ChillCube/ChasingAI) - An AI that chases a player and uses obstacle avoidance
 * [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
 * [SaveManager](https://github.com/ChillCube/SaveManager) - A save manager class for godot
 
 ## 🎴 Card Game Systems
+* [ChasingAI](https://github.com/ChillCube/ChasingAI) - An AI that chases a player and uses obstacle avoidance
 * [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
@@ -174,6 +192,7 @@ but if that is not an option for you, you can download them manually. Just make 
 * [2dCard](https://github.com/ChillCube/2dCard) - A node that can be used to create 2D cards for card games
 
 ## 💰 Economy & Shops
+* [ChasingAI](https://github.com/ChillCube/ChasingAI) - An AI that chases a player and uses obstacle avoidance
 * [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
@@ -181,6 +200,7 @@ but if that is not an option for you, you can download them manually. Just make 
 * [CurrencyGodot](https://github.com/ChillCube/CurrencyGodot) - A custom resource meant to help create economic simulations for fantasy currencies
 
 ## 🏆 Progression & Achievements
+* [ChasingAI](https://github.com/ChillCube/ChasingAI) - An AI that chases a player and uses obstacle avoidance
 * [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
@@ -188,6 +208,7 @@ but if that is not an option for you, you can download them manually. Just make 
 * [Godot_LevelUp-Stats-and-EXP-system](https://github.com/ChillCube/Godot_LevelUp-Stats-and-EXP-system) - A system for level ups, stats and exp for godot
 
 ## 🎨 Visual Effects (Shaders/VFX)
+* [ChasingAI](https://github.com/ChillCube/ChasingAI) - An AI that chases a player and uses obstacle avoidance
 * [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
@@ -245,6 +266,7 @@ but if that is not an option for you, you can download them manually. Just make 
 
 
 ## Uncategorized
+* [ChasingAI](https://github.com/ChillCube/ChasingAI) - An AI that chases a player and uses obstacle avoidance
 * [speechbubble](https://github.com/ChillCube/speechbubble) - A speechbubble for godot
 * [InteractableNode](https://github.com/ChillCube/InteractableNode) - A node that can be interacted with by pressing a certain button if another node is within its reach
 * [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) -  into different directions
@@ -261,6 +283,7 @@ but if that is not an option for you, you can download them manually. Just make 
 
 <!-- DEPENDENCY-TREE-START -->
 ## 🌳 Dependency Tree
+* [ChasingAI](https://github.com/ChillCube/ChasingAI) - An AI that chases a player and uses obstacle avoidance
 
 ```mermaid
 flowchart LR
