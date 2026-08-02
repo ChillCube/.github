@@ -281,9 +281,9 @@ but if that is not an option for you, you can download them manually. Just make 
 
 
 
+
 <!-- DEPENDENCY-TREE-START -->
 ## 🌳 Dependency Tree
-* [ChasingAI](https://github.com/ChillCube/ChasingAI) - An AI that chases a player and uses obstacle avoidance
 
 ```mermaid
 flowchart LR
@@ -332,5 +332,5 @@ flowchart LR
     click TopDownMovement href "https://github.com/ChillCube/TopDownMovement" _blank
 ```
 
-**Standalone addons:** ChasingAI
+**Standalone addons:** [ChasingAI](https://github.com/ChillCube/ChasingAI)
 <!-- DEPENDENCY-TREE-END -->
