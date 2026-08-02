@@ -256,6 +256,7 @@ but if that is not an option for you, you can download them manually. Just make 
 
 
 
+
 <!-- DEPENDENCY-TREE-START -->
 ## 🌳 Dependency Tree
 
@@ -264,50 +265,47 @@ flowchart LR
     classDef core  fill:#4a9eff,stroke:#2471d4,color:#fff,font-weight:bold
     classDef shared fill:#a29bfe,stroke:#6c5ce7,color:#fff
 
+    DirectionalAnimatedSprite["DirectionalAnimatedSprite"]
+    FollowingCamera2D["FollowingCamera2D"]
     Godot_SmoothMovement["SmoothMovement"]
-    Godot_SpriteBasedSmoothMenuButton2D["SpriteBasedSmoothMenuButton2D"]
     Godot_TopDown_Character_Controller["TopDown Character Controller"]
+    InteractableNode["InteractableNode"]
     n_1to9NumberDisplay["1to9NumberDisplay"]
     n_2d_node_arranger["2d node arranger"]
+    n_2D_Node_Arranger["2D Node Arranger"]
     NumberDisplay["NumberDisplay"]
-    SelectableUI["SelectableUI"]
     SmoothUI["SmoothUI"]
-    SpriteHelper["SpriteHelper"]
     TopDownMovement["TopDownMovement"]
-    visualCountDown["visualCountDown"]
 
-    Godot_SpriteBasedSmoothMenuButton2D --> Godot_SmoothMovement
-    Godot_SpriteBasedSmoothMenuButton2D --> SelectableUI
+    DirectionalAnimatedSprite --> InteractableNode
+    FollowingCamera2D --> Godot_SmoothMovement
     Godot_TopDown_Character_Controller --> TopDownMovement
+    n_1to9NumberDisplay --> Godot_SmoothMovement
     n_1to9NumberDisplay --> SmoothUI
+    n_2D_Node_Arranger --> Godot_SmoothMovement
     NumberDisplay --> n_1to9NumberDisplay
     NumberDisplay --> n_2d_node_arranger
-    SelectableUI --> SmoothUI
-    SelectableUI --> SpriteHelper
     SmoothUI --> Godot_SmoothMovement
-    visualCountDown --> NumberDisplay
 
     class Godot_SmoothMovement core
+    class InteractableNode shared
     class n_1to9NumberDisplay shared
     class n_2d_node_arranger shared
-    class NumberDisplay shared
-    class SelectableUI shared
-    class SmoothUI core
-    class SpriteHelper shared
+    class SmoothUI shared
     class TopDownMovement shared
 
+    click DirectionalAnimatedSprite href "https://github.com/ChillCube/DirectionalAnimatedSprite" _blank
+    click FollowingCamera2D href "https://github.com/ChillCube/FollowingCamera2D" _blank
     click Godot_SmoothMovement href "https://github.com/ChillCube/Godot_SmoothMovement" _blank
-    click Godot_SpriteBasedSmoothMenuButton2D href "https://github.com/ChillCube/Godot_SpriteBasedSmoothMenuButton2D" _blank
     click Godot_TopDown_Character_Controller href "https://github.com/ChillCube/Godot_TopDown_Character_Controller" _blank
+    click InteractableNode href "https://github.com/ChillCube/InteractableNode" _blank
     click n_1to9NumberDisplay href "https://github.com/ChillCube/1to9NumberDisplay" _blank
     click n_2d_node_arranger href "https://github.com/ChillCube/2d_node_arranger" _blank
+    click n_2D_Node_Arranger href "https://github.com/ChillCube/2d_node_arranger" _blank
     click NumberDisplay href "https://github.com/ChillCube/NumberDisplay" _blank
-    click SelectableUI href "https://github.com/ChillCube/SelectableUI" _blank
     click SmoothUI href "https://github.com/ChillCube/SmoothUI" _blank
-    click SpriteHelper href "https://github.com/ChillCube/SpriteHelper" _blank
     click TopDownMovement href "https://github.com/ChillCube/TopDownMovement" _blank
-    click visualCountDown href "https://github.com/ChillCube/visualCountDown" _blank
 ```
 
-**Standalone addons:** [DirectionalAnimatedSprite](https://github.com/ChillCube/DirectionalAnimatedSprite) · [InteractableNode](https://github.com/ChillCube/InteractableNode) · [LabelHelper](https://github.com/ChillCube/LabelHelper) · [2D Node Arranger](https://github.com/ChillCube/2d_node_arranger) · [speechbubble](https://github.com/ChillCube/speechbubble)
+**Standalone addons:** ChasingAI
 <!-- DEPENDENCY-TREE-END -->
